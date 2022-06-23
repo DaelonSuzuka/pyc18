@@ -1,0 +1,11 @@
+# ignore venvs
+.venv*
+.build-venv
+
+# python byproducts
+__pycache__
+output
+*.pyo
+
+# vs code project settings folder
+.vscode
