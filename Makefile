@@ -12,6 +12,12 @@ MAKEFLAGS += -s
 run: venv
 	$(VENV_PYTHON) app/main.py
 
+opcodes: venv
+	$(VENV_PYTHON) app/gen_opcodes.py
+
+registers: venv
+	$(VENV_PYTHON) app/gen_registers.py
+
 # run the application in pdb
 debug: venv
 	$(VENV_PYTHON) -m pdb app/main.py

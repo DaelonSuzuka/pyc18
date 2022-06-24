@@ -1,0 +1,6674 @@
+[
+    {
+        "address": "0x39",
+        "name": "CLKRCON",
+        "bits": [
+            "EN",
+            "DC[1:0]\nDIV[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x3A",
+        "name": "CLKRCLK",
+        "bits": [
+            "CLK[4:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x40",
+        "name": "NVMCON0",
+        "bits": [
+            "GO",
+            ""
+        ]
+    },
+    {
+        "address": "0x41",
+        "name": "NVMCON1",
+        "bits": [
+            "WRERR",
+            "NVMCMD[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x42",
+        "name": "NVMLOCK",
+        "bits": [
+            "NVMLOCK[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x43",
+        "name": "NVMADR",
+        "bits": [
+            "NVMADR[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x46",
+        "name": "NVMDAT",
+        "bits": [
+            "NVMDAT[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x48",
+        "name": "VREGCON",
+        "bits": [
+            "PMSYS[1:0]",
+            "VREGPM[1:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x49",
+        "name": "BORCON",
+        "bits": [
+            "SBOREN",
+            "BORRDY",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x4A",
+        "name": "HLVDCON0",
+        "bits": [
+            "EN",
+            "OUT",
+            "RDY",
+            "INTH\nINTL",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x4B",
+        "name": "HLVDCON1",
+        "bits": [
+            "SEL[3:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x4C",
+        "name": "ZCDCON",
+        "bits": [
+            "SEN",
+            "OUT",
+            "POL",
+            "INTP",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x60",
+        "name": "PMD0",
+        "bits": [
+            "SYSCMD",
+            "FVRMD",
+            "HLVDMD",
+            "CRCMD",
+            "SCANMD",
+            "CLKRMD",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x61",
+        "name": "PMD1",
+        "bits": [
+            "SMT1MD",
+            "TMR6MD",
+            "TMR5MD",
+            "TMR4MD",
+            "TMR3MD",
+            "TMR2MD",
+            "TMR1MD",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x63",
+        "name": "PMD3",
+        "bits": [
+            "ACTMD",
+            "DAC1MD",
+            "ADCMD",
+            "C2MD",
+            "C1MD",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x64",
+        "name": "PMD4",
+        "bits": [
+            "CWG3MD",
+            "CWG2MD",
+            "CWG1MD",
+            "DSM1MD",
+            "NCO3MD",
+            "NCO2MD",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x65",
+        "name": "PMD5",
+        "bits": [
+            "PWM3MD",
+            "PWM2MD",
+            "PWM1MD",
+            "CCP3MD",
+            "CCP2MD",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x66",
+        "name": "PMD6",
+        "bits": [
+            "U5MD",
+            "U4MD",
+            "U3MD",
+            "U2MD",
+            "U1MD",
+            "SPI2MD",
+            "SPI1MD",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x67",
+        "name": "PMD7",
+        "bits": [
+            "CLC8MD",
+            "CLC7MD",
+            "CLC6MD",
+            "CLC5MD",
+            "CLC4MD",
+            "CLC3MD",
+            "CLC2MD",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x68",
+        "name": "PMD8",
+        "bits": [
+            "DMA6MD",
+            "DMA5MD",
+            "DMA4MD",
+            "DMA3MD",
+            "DMA2MD",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x6A",
+        "name": "MD1CON0",
+        "bits": [
+            "EN",
+            "OUT",
+            "OPOL",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x6B",
+        "name": "MD1CON1",
+        "bits": [
+            "CHPOL",
+            "CHSYNC",
+            "CLPOL",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x6C",
+        "name": "MD1SRC",
+        "bits": [
+            "MS[5:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x6D",
+        "name": "MD1CARL",
+        "bits": [
+            "CL[4:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x6E",
+        "name": "MD1CARH",
+        "bits": [
+            "CH[4:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x6F",
+        "name": "CMOUT",
+        "bits": [
+            "C2OUT\nC1OUT",
+            ""
+        ]
+    },
+    {
+        "address": "0x70",
+        "name": "CM1CON0",
+        "bits": [
+            "EN",
+            "OUT",
+            "POL",
+            "HYS\nSYNC",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x71",
+        "name": "CM1CON1",
+        "bits": [
+            "INTP\nINTN",
+            ""
+        ]
+    },
+    {
+        "address": "0x72",
+        "name": "CM1NCH",
+        "bits": [
+            "NCH[2:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x73",
+        "name": "CM1PCH",
+        "bits": [
+            "PCH[2:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x74",
+        "name": "CM2CON0",
+        "bits": [
+            "EN",
+            "OUT",
+            "POL",
+            "HYS\nSYNC",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x75",
+        "name": "CM2CON1",
+        "bits": [
+            "INTP\nINTN",
+            ""
+        ]
+    },
+    {
+        "address": "0x76",
+        "name": "CM2NCH",
+        "bits": [
+            "NCH[2:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x77",
+        "name": "CM2PCH",
+        "bits": [
+            "PCH[2:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x78",
+        "name": "WDTCON0",
+        "bits": [
+            "PS[4:0]\nSEN",
+            ""
+        ]
+    },
+    {
+        "address": "0x79",
+        "name": "WDTCON1",
+        "bits": [
+            "CS[2:0]\n \nWINDOW[2:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x7A",
+        "name": "WDTPSL",
+        "bits": [
+            "PSCNTL[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x7B",
+        "name": "WDTPSH",
+        "bits": [
+            "PSCNTH[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x7C",
+        "name": "WDTTMR",
+        "bits": [
+            "TMR[4:0]\nSTATE\nPSCNT[17:16]",
+            ""
+        ]
+    },
+    {
+        "address": "0x7D",
+        "name": "DAC1DATL",
+        "bits": [
+            "DAC1R[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x7F",
+        "name": "DAC1CON",
+        "bits": [
+            "EN\n \nOE[1:0]\nPSS[1:0]\n \nNSS",
+            ""
+        ]
+    },
+    {
+        "address": "0x80",
+        "name": "SPI1RXB",
+        "bits": [
+            "RXB[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x81",
+        "name": "SPI1TXB",
+        "bits": [
+            "TXB[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x82",
+        "name": "SPI1TCNT",
+        "bits": [
+            "TCNTL[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x84",
+        "name": "SPI1CON0",
+        "bits": [
+            "EN",
+            "LSBF\nMST\nBMODE",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x85",
+        "name": "SPI1CON1",
+        "bits": [
+            "SMP",
+            "CKE",
+            "CKP",
+            "FST",
+            "SSP\nSDIP\nSDOP",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x86",
+        "name": "SPI1CON2",
+        "bits": [
+            "BUSY",
+            "SSFLT",
+            "SSET\nTXR\nRXR",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x87",
+        "name": "SPI1STATUS",
+        "bits": [
+            "TXWE",
+            "TXBE",
+            "RXRE",
+            "CLB\n \nRXBF",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x88",
+        "name": "SPI1TWIDTH",
+        "bits": [
+            "TWIDTH[2:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x89",
+        "name": "SPI1BAUD",
+        "bits": [
+            "BAUD[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x8A",
+        "name": "SPI1INTF",
+        "bits": [
+            "SRMTIF\nTCZIF\nSOSIF\nEOSIF\n \nRXOIF\nTXUIF",
+            ""
+        ]
+    },
+    {
+        "address": "0x8B",
+        "name": "SPI1INTE",
+        "bits": [
+            "SRMTIE\nTCZIE\nSOSIE\nEOSIE\n \nRXOIE\nTXUIE",
+            ""
+        ]
+    },
+    {
+        "address": "0x8C",
+        "name": "SPI1CLK",
+        "bits": [
+            "CLKSEL[4:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x8D",
+        "name": "SPI2RXB",
+        "bits": [
+            "RXB[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x8E",
+        "name": "SPI2TXB",
+        "bits": [
+            "TXB[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x8F",
+        "name": "SPI2TCNT",
+        "bits": [
+            "TCNTL[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x91",
+        "name": "SPI2CON0",
+        "bits": [
+            "EN",
+            "LSBF\nMST\nBMODE",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x92",
+        "name": "SPI2CON1",
+        "bits": [
+            "SMP",
+            "CKE",
+            "CKP",
+            "FST",
+            "SSP\nSDIP\nSDOP",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x93",
+        "name": "SPI2CON2",
+        "bits": [
+            "BUSY",
+            "SSFLT",
+            "SSET\nTXR\nRXR",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x94",
+        "name": "SPI2STATUS",
+        "bits": [
+            "TXWE",
+            "TXBE",
+            "RXRE",
+            "CLB\n \nRXBF",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x95",
+        "name": "SPI2TWIDTH",
+        "bits": [
+            "TWIDTH[2:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x96",
+        "name": "SPI2BAUD",
+        "bits": [
+            "BAUD[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x97",
+        "name": "SPI2INTF",
+        "bits": [
+            "SRMTIF",
+            "TCZIF",
+            "SOSIF",
+            "EOSIF\n \nRXOIF\nTXUIF",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x98",
+        "name": "SPI2INTE",
+        "bits": [
+            "SRMTIE",
+            "TCZIE",
+            "SOSIE",
+            "EOSIE\n \nRXOIE\nTXUIE",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x99",
+        "name": "SPI2CLK",
+        "bits": [
+            "CLKSEL[4:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xAC",
+        "name": "ACTCON",
+        "bits": [
+            "ACTEN",
+            "ACTUD",
+            "ACTLOCK\n \nACTORS",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0xAD",
+        "name": "OSCCON1",
+        "bits": [
+            "NOSC[2:0]",
+            "NDIV[3:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0xAE",
+        "name": "OSCCON2",
+        "bits": [
+            "COSC[2:0]",
+            "CDIV[3:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0xAF",
+        "name": "OSCCON3",
+        "bits": [
+            "CSWHOLD",
+            "SOSCPWR",
+            "ORDY",
+            "NOSCR",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0xB0",
+        "name": "OSCTUNE",
+        "bits": [
+            "TUN[5:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xB1",
+        "name": "OSCFRQ",
+        "bits": [
+            "FRQ[3:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xB2",
+        "name": "OSCSTAT",
+        "bits": [
+            "EXTOR",
+            "HFOR",
+            "MFOR",
+            "LFOR",
+            "SOR",
+            "ADOR\n \nPLLR",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0xB3",
+        "name": "OSCEN",
+        "bits": [
+            "EXTOEN",
+            "HFOEN",
+            "MFOEN",
+            "LFOEN",
+            "SOSCEN",
+            "ADOEN\n \nPLLEN",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0xB4",
+        "name": "PRLOCK",
+        "bits": [
+            "PRLOCKED",
+            ""
+        ]
+    },
+    {
+        "address": "0xB5",
+        "name": "SCANPR",
+        "bits": [
+            "PR[2:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xB6",
+        "name": "DMA1PR",
+        "bits": [
+            "PR[2:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xB7",
+        "name": "DMA2PR",
+        "bits": [
+            "PR[2:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xB8",
+        "name": "DMA3PR",
+        "bits": [
+            "PR[2:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xB9",
+        "name": "DMA4PR",
+        "bits": [
+            "PR[2:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xBA",
+        "name": "DMA5PR",
+        "bits": [
+            "PR[2:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xBB",
+        "name": "DMA6PR",
+        "bits": [
+            "PR[2:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xBE",
+        "name": "MAINPR",
+        "bits": [
+            "PR[2:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xBF",
+        "name": "ISRPR",
+        "bits": [
+            "PR[2:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xD4",
+        "name": "CLCDATA",
+        "bits": [
+            "CLC8OUT",
+            "CLC7OUT",
+            "CLC6OUT",
+            "CLC5OUT",
+            "CLC4OUT",
+            "CLC3OUT\nCLC2OUT\nCLC1OUT",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0xD5",
+        "name": "CLCSELECT",
+        "bits": [
+            "SLCT[2:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xD6",
+        "name": "CLCnCON",
+        "bits": [
+            "EN",
+            "OUT",
+            "INTP",
+            "INTN",
+            "MODE[2:0]",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0xD7",
+        "name": "CLCnPOL",
+        "bits": [
+            "POL",
+            "G4POL",
+            "G3POL\nG2POL\nG1POL",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0xD8",
+        "name": "CLCnSEL0",
+        "bits": [
+            "D1S[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xD9",
+        "name": "CLCnSEL1",
+        "bits": [
+            "D2S[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xDA",
+        "name": "CLCnSEL2",
+        "bits": [
+            "D3S[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xDB",
+        "name": "CLCnSEL3",
+        "bits": [
+            "D4S[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xDC",
+        "name": "CLCnGLS0",
+        "bits": [
+            "G1D4T",
+            "G1D4N",
+            "G1D3T",
+            "G1D3N",
+            "G1D2T",
+            "G1D2N",
+            "G1D1T",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0xDD",
+        "name": "CLCnGLS1",
+        "bits": [
+            "G2D4T",
+            "G2D4N",
+            "G2D3T",
+            "G2D3N",
+            "G2D2T",
+            "G2D2N",
+            "G2D1T",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0xDE",
+        "name": "CLCnGLS2",
+        "bits": [
+            "G3D4T",
+            "G3D4N",
+            "G3D3T",
+            "G3D3N",
+            "G3D2T",
+            "G3D2N",
+            "G3D1T",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0xDF",
+        "name": "CLCnGLS3",
+        "bits": [
+            "G4D4T",
+            "G4D4N",
+            "G4D3T",
+            "G4D3N",
+            "G4D2T",
+            "G4D2N",
+            "G4D1T",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0xE8",
+        "name": "DMASELECT",
+        "bits": [
+            "SLCT[2:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xE9",
+        "name": "DMAnBUF",
+        "bits": [
+            "BUF[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xEA",
+        "name": "DMAnDCNT",
+        "bits": [
+            "DCNT[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xEC",
+        "name": "DMAnDPTR",
+        "bits": [
+            "DPTR[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xEE",
+        "name": "DMAnDSZ",
+        "bits": [
+            "DSZ[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xF0",
+        "name": "DMAnDSA",
+        "bits": [
+            "DSA[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xF2",
+        "name": "DMAnSCNT",
+        "bits": [
+            "SCNT[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xF4",
+        "name": "DMAnSPTR",
+        "bits": [
+            "SPTR[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xF7",
+        "name": "DMAnSSZ",
+        "bits": [
+            "SSZ[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xF9",
+        "name": "DMAnSSA",
+        "bits": [
+            "SSA[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xFC",
+        "name": "DMAnCON0",
+        "bits": [
+            "EN\nSIRQEN\nDGO\n \n \nAIRQEN\n \nXIP",
+            ""
+        ]
+    },
+    {
+        "address": "0xFD",
+        "name": "DMAnCON1",
+        "bits": [
+            "DMODE[1:0]\nDSTP\nSMR[1:0]\nSMODE[1:0]\nSSTP",
+            ""
+        ]
+    },
+    {
+        "address": "0xFE",
+        "name": "DMAnAIRQ",
+        "bits": [
+            "AIRQ[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0xFF",
+        "name": "DMAnSIRQ",
+        "bits": [
+            "SIRQ[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0200",
+        "name": "PPSLOCK",
+        "bits": [
+            "PPSLOCKED",
+            ""
+        ]
+    },
+    {
+        "address": "0x0201",
+        "name": "RA0PPS",
+        "bits": [
+            "RA0PPS[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0202",
+        "name": "RA1PPS",
+        "bits": [
+            "RA1PPS[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0203",
+        "name": "RA2PPS",
+        "bits": [
+            "RA2PPS[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0204",
+        "name": "RA3PPS",
+        "bits": [
+            "RA3PPS[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0205",
+        "name": "RA4PPS",
+        "bits": [
+            "RA4PPS[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0206",
+        "name": "RA5PPS",
+        "bits": [
+            "RA5PPS[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0207",
+        "name": "RA6PPS",
+        "bits": [
+            "RA6PPS[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0208",
+        "name": "RA7PPS",
+        "bits": [
+            "RA7PPS[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0209",
+        "name": "RB0PPS",
+        "bits": [
+            "RB0PPS[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x020A",
+        "name": "RB1PPS",
+        "bits": [
+            "RB1PPS[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x020B",
+        "name": "RB2PPS",
+        "bits": [
+            "RB2PPS[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x020C",
+        "name": "RB3PPS",
+        "bits": [
+            "RB3PPS[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x020D",
+        "name": "RB4PPS",
+        "bits": [
+            "RB4PPS[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x020E",
+        "name": "RB5PPS",
+        "bits": [
+            "RB5PPS[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x020F",
+        "name": "RB6PPS",
+        "bits": [
+            "RB6PPS[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0210",
+        "name": "RB7PPS",
+        "bits": [
+            "RB7PPS[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0211",
+        "name": "RC0PPS",
+        "bits": [
+            "RC0PPS[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0212",
+        "name": "RC1PPS",
+        "bits": [
+            "RC1PPS[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0213",
+        "name": "RC2PPS",
+        "bits": [
+            "RC2PPS[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0214",
+        "name": "RC3PPS",
+        "bits": [
+            "RC3PPS[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0215",
+        "name": "RC4PPS",
+        "bits": [
+            "RC4PPS[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0216",
+        "name": "RC5PPS",
+        "bits": [
+            "RC5PPS[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0217",
+        "name": "RC6PPS",
+        "bits": [
+            "RC6PPS[6:0]",
+            "",
+            "RC6PPS[6:0]"
+        ]
+    },
+    {
+        "address": "0x0218",
+        "name": "RC7PPS",
+        "bits": [
+            "RC7PPS[6:0]",
+            "",
+            "RC7PPS[6:0]"
+        ]
+    },
+    {
+        "address": "0x0219",
+        "name": "RD0PPS",
+        "bits": [
+            "RD0PPS[6:0]",
+            "",
+            "RD0PPS[6:0]"
+        ]
+    },
+    {
+        "address": "0x021A",
+        "name": "RD1PPS",
+        "bits": [
+            "RD1PPS[6:0]",
+            "",
+            "RD1PPS[6:0]"
+        ]
+    },
+    {
+        "address": "0x021B",
+        "name": "RD2PPS",
+        "bits": [
+            "RD2PPS[6:0]",
+            "",
+            "RD2PPS[6:0]"
+        ]
+    },
+    {
+        "address": "0x021C",
+        "name": "RD3PPS",
+        "bits": [
+            "RD3PPS[6:0]",
+            "",
+            "RD3PPS[6:0]"
+        ]
+    },
+    {
+        "address": "0x021D",
+        "name": "RD4PPS",
+        "bits": [
+            "RD4PPS[6:0]",
+            "",
+            "RD4PPS[6:0]"
+        ]
+    },
+    {
+        "address": "0x021E",
+        "name": "RD5PPS",
+        "bits": [
+            "RD5PPS[6:0]",
+            "",
+            "RD5PPS[6:0]"
+        ]
+    },
+    {
+        "address": "0x021F",
+        "name": "RD6PPS",
+        "bits": [
+            "RD6PPS[6:0]",
+            "",
+            "RD6PPS[6:0]"
+        ]
+    },
+    {
+        "address": "0x0220",
+        "name": "RD7PPS",
+        "bits": [
+            "RD7PPS[6:0]",
+            "",
+            "RD7PPS[6:0]"
+        ]
+    },
+    {
+        "address": "0x0221",
+        "name": "RE0PPS",
+        "bits": [
+            "RE0PPS[6:0]",
+            "",
+            "RE0PPS[6:0]"
+        ]
+    },
+    {
+        "address": "0x0222",
+        "name": "RE1PPS",
+        "bits": [
+            "RE1PPS[6:0]",
+            "",
+            "RE1PPS[6:0]"
+        ]
+    },
+    {
+        "address": "0x0223",
+        "name": "RE2PPS",
+        "bits": [
+            "RE2PPS[6:0]",
+            "",
+            "RE2PPS[6:0]"
+        ]
+    },
+    {
+        "address": "0x0229",
+        "name": "RF0PPS",
+        "bits": [
+            "RF0PPS[6:0]",
+            "",
+            "RF0PPS[6:0]"
+        ]
+    },
+    {
+        "address": "0x022A",
+        "name": "RF1PPS",
+        "bits": [
+            "RF1PPS[6:0]",
+            "",
+            "RF1PPS[6:0]"
+        ]
+    },
+    {
+        "address": "0x022B",
+        "name": "RF2PPS",
+        "bits": [
+            "RF2PPS[6:0]",
+            "",
+            "RF2PPS[6:0]"
+        ]
+    },
+    {
+        "address": "0x022C",
+        "name": "RF3PPS",
+        "bits": [
+            "RF3PPS[6:0]",
+            "",
+            "RF3PPS[6:0]"
+        ]
+    },
+    {
+        "address": "0x022D",
+        "name": "RF4PPS",
+        "bits": [
+            "RF4PPS[6:0]",
+            "",
+            "RF4PPS[6:0]"
+        ]
+    },
+    {
+        "address": "0x022E",
+        "name": "RF5PPS",
+        "bits": [
+            "RF5PPS[6:0]",
+            "",
+            "RF5PPS[6:0]"
+        ]
+    },
+    {
+        "address": "0x022F",
+        "name": "RF6PPS",
+        "bits": [
+            "RF6PPS[6:0]",
+            "",
+            "RF6PPS[6:0]"
+        ]
+    },
+    {
+        "address": "0x0230",
+        "name": "RF7PPS",
+        "bits": [
+            "RF7PPS[6:0]",
+            "",
+            "RF7PPS[6:0]"
+        ]
+    },
+    {
+        "address": "0x023E",
+        "name": "INT0PPS",
+        "bits": [
+            "PORT",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x023F",
+        "name": "INT1PPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[1:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x0240",
+        "name": "INT2PPS",
+        "bits": [
+            "PORT[2:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[2:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x0241",
+        "name": "T0CKIPPS",
+        "bits": [
+            "PORT[2:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[2:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x0242",
+        "name": "T1CKIPPS",
+        "bits": [
+            "PORT[2:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[2:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x0243",
+        "name": "T1GPPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[1:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x0244",
+        "name": "T3CKIPPS",
+        "bits": [
+            "PORT[2:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[2:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x0245",
+        "name": "T3GPPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[1:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x0246",
+        "name": "T5CKIPPS",
+        "bits": [
+            "PORT[2:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[2:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x0247",
+        "name": "T5GPPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[1:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x0248",
+        "name": "T2INPPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[1:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x0249",
+        "name": "T4INPPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[1:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x024A",
+        "name": "T6INPPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[1:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x024F",
+        "name": "CCP1PPS",
+        "bits": [
+            "PORT[2:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[2:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x0250",
+        "name": "CCP2PPS",
+        "bits": [
+            "PORT[2:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[2:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x0251",
+        "name": "CCP3PPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[1:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x0253",
+        "name": "PWM1ERSPPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[1:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x0254",
+        "name": "PWM2ERSPPS",
+        "bits": [
+            "PORT[2:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[2:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x0255",
+        "name": "PWM3ERSPPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[1:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x0257",
+        "name": "PWMIN0PPS",
+        "bits": [
+            "PORT[2:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[2:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x0258",
+        "name": "PWMIN1PPS",
+        "bits": [
+            "PORT[2:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[2:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x0259",
+        "name": "SMT1WINPPS",
+        "bits": [
+            "PORT[2:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[2:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x025A",
+        "name": "SMT1SIGPPS",
+        "bits": [
+            "PORT[2:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[2:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x025B",
+        "name": "CWG1PPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[1:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x025C",
+        "name": "CWG2PPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[1:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x025D",
+        "name": "CWG3PPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[1:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x025E",
+        "name": "MD1CARLPPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            "",
+            "PORT[1:0]",
+            "PIN[2:0]"
+        ]
+    },
+    {
+        "address": "0x025F",
+        "name": "MD1CARHPPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0260",
+        "name": "MD1SRCPPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0261",
+        "name": "CLCIN0PPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0262",
+        "name": "CLCIN1PPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0263",
+        "name": "CLCIN2PPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0264",
+        "name": "CLCIN3PPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0265",
+        "name": "CLCIN4PPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0266",
+        "name": "CLCIN5PPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0267",
+        "name": "CLCIN6PPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0268",
+        "name": "CLCIN7PPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0269",
+        "name": "ADACTPPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x026A",
+        "name": "SPI1SCKPPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x026B",
+        "name": "SPI1SDIPPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x026C",
+        "name": "SPI1SSPPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x026D",
+        "name": "SPI2SCKPPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x026E",
+        "name": "SPI2SDIPPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x026F",
+        "name": "SPI2SSPPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0270",
+        "name": "I2C1SDAPPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0271",
+        "name": "I2C1SCLPPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0272",
+        "name": "U1RXPPS",
+        "bits": [
+            "PORT[2:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0273",
+        "name": "U1CTSPPS",
+        "bits": [
+            "PORT[2:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0274",
+        "name": "U2RXPPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0275",
+        "name": "U2CTSPPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0276",
+        "name": "U3RXPPS",
+        "bits": [
+            "PORT[2:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0277",
+        "name": "U3CTSPPS",
+        "bits": [
+            "PORT[2:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0278",
+        "name": "U4RXPPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0279",
+        "name": "U4CTSPPS",
+        "bits": [
+            "PORT[1:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x027A",
+        "name": "U5RXPPS",
+        "bits": [
+            "PORT[2:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x027B",
+        "name": "U5CTSPPS",
+        "bits": [
+            "PORT[2:0]",
+            "PIN[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0286",
+        "name": "RC4I2C",
+        "bits": [
+            "SLEW[1:0]",
+            "PU[1:0]",
+            "TH[1:0]",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0287",
+        "name": "RC3I2C",
+        "bits": [
+            "SLEW[1:0]",
+            "PU[1:0]",
+            "TH[1:0]",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0288",
+        "name": "RB2I2C",
+        "bits": [
+            "SLEW[1:0]",
+            "PU[1:0]",
+            "TH[1:0]",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0289",
+        "name": "RB1I2C",
+        "bits": [
+            "SLEW[1:0]",
+            "PU[1:0]",
+            "TH[1:0]",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x028B",
+        "name": "I2C1RXB",
+        "bits": [
+            "RXB[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x028C",
+        "name": "I2C1TXB",
+        "bits": [
+            "TXB[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x028D",
+        "name": "I2C1CNT",
+        "bits": [
+            "CNT[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x028E",
+        "name": "I2C1ADB0",
+        "bits": [
+            "ADB[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x028F",
+        "name": "I2C1ADB1",
+        "bits": [
+            "ADB[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0290",
+        "name": "I2C1ADR0",
+        "bits": [
+            "ADR[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0291",
+        "name": "I2C1ADR1",
+        "bits": [
+            "ADR[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0292",
+        "name": "I2C1ADR2",
+        "bits": [
+            "ADR[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0293",
+        "name": "I2C1ADR3",
+        "bits": [
+            "ADR[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0294",
+        "name": "I2C1CON0",
+        "bits": [
+            "EN",
+            "RSEN",
+            "S",
+            "CSTR",
+            "MDR\nMODE[2:0]",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0295",
+        "name": "I2C1CON1",
+        "bits": [
+            "ACKCNT",
+            "ACKDT",
+            "ACKSTAT",
+            "ACKT",
+            "RXO",
+            "TXU\nCSD",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0296",
+        "name": "I2C1CON2",
+        "bits": [
+            "ACNT",
+            "GCEN",
+            "FME",
+            "ABD",
+            "SDAHT[1:0]",
+            "BFRET[1:0]",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0297",
+        "name": "I2C1ERR",
+        "bits": [
+            "BTOIF",
+            "BCLIF",
+            "NACKIF",
+            "BTOIE",
+            "BLCIE",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0298",
+        "name": "I2C1STAT0",
+        "bits": [
+            "BFRE",
+            "SMA",
+            "MMA",
+            "R",
+            "D",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0299",
+        "name": "I2C1STAT1",
+        "bits": [
+            "TXWE",
+            "TXBE",
+            "RXRE",
+            "CLRBF",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x029A",
+        "name": "I2C1PIR",
+        "bits": [
+            "CNTIF",
+            "ACKTIF",
+            "WRIF",
+            "ADRIF",
+            "PCIF",
+            "RSCIF",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x029B",
+        "name": "I2C1PIE",
+        "bits": [
+            "CNTIE",
+            "ACKTIE",
+            "WRIE",
+            "ADRIE",
+            "PCIE",
+            "RSCIE",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x029C",
+        "name": "I2C1CLK",
+        "bits": [
+            "CLK[4:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x029D",
+        "name": "I2C1BTO",
+        "bits": [
+            "BTO[3:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x02A1",
+        "name": "U1RXB",
+        "bits": [
+            "RXB[7:0]"
+        ]
+    },
+    {
+        "address": "0x02A2",
+        "name": "U1RXCHK",
+        "bits": [
+            "RXCHK[7:0]"
+        ]
+    },
+    {
+        "address": "0x02A3",
+        "name": "U1TXB",
+        "bits": [
+            "TXB[7:0]"
+        ]
+    },
+    {
+        "address": "0x02A4",
+        "name": "U1TXCHK",
+        "bits": [
+            "TXCHK[7:0]"
+        ]
+    },
+    {
+        "address": "0x02A5",
+        "name": "U1P1",
+        "bits": [
+            "P1[7:0]"
+        ]
+    },
+    {
+        "address": "0x02A7",
+        "name": "U1P2",
+        "bits": [
+            "P2[7:0]"
+        ]
+    },
+    {
+        "address": "0x02A9",
+        "name": "U1P3",
+        "bits": [
+            "P3[7:0]"
+        ]
+    },
+    {
+        "address": "0x02AB",
+        "name": "U1CON0",
+        "bits": [
+            "BRGS\nABDEN\nTXEN\nRXEN\nMODE[3:0]"
+        ]
+    },
+    {
+        "address": "0x02AC",
+        "name": "U1CON1",
+        "bits": [
+            "ON\n \n \nWUE\nRXBIMD\n \nBRKOVR\nSENDB"
+        ]
+    },
+    {
+        "address": "0x02AD",
+        "name": "U1CON2",
+        "bits": [
+            "RUNOVF\nRXPOL\nSTP[1:0]\nC0EN\nTXPOL\nFLO[1:0]"
+        ]
+    },
+    {
+        "address": "0x02AE",
+        "name": "U1BRG",
+        "bits": [
+            "BRG[7:0]"
+        ]
+    },
+    {
+        "address": "0x02B0",
+        "name": "U1FIFO",
+        "bits": [
+            "TXWRE\nSTPMD\nTXBE\nTXBF\nRXIDL\nXON\nRXBE\nRXBF"
+        ]
+    },
+    {
+        "address": "0x02B1",
+        "name": "U1UIR",
+        "bits": [
+            "WUIF\nABDIF\n \n \n \nABDIE"
+        ]
+    },
+    {
+        "address": "0x02B2",
+        "name": "U1ERRIR",
+        "bits": [
+            "TXMTIF\nPERIF\nABDOVF\nCERIF\nFERIF\nRXBKIF\nRXFOIF\nTXCIF"
+        ]
+    },
+    {
+        "address": "0x02B3",
+        "name": "U1ERRIE",
+        "bits": [
+            "TXMTIE\nPERIE\nABDOVE\nCERIE\nFERIE\nRXBKIE\nRXFOIE\nTXCIE"
+        ]
+    },
+    {
+        "address": "0x02B4",
+        "name": "U2RXB",
+        "bits": [
+            "RXB[7:0]"
+        ]
+    },
+    {
+        "address": "0x02B6",
+        "name": "U2TXB",
+        "bits": [
+            "TXB[7:0]"
+        ]
+    },
+    {
+        "address": "0x02B8",
+        "name": "U2P1",
+        "bits": [
+            "P1[7:0]"
+        ]
+    },
+    {
+        "address": "0x02BA",
+        "name": "U2P2",
+        "bits": [
+            "P2[7:0]"
+        ]
+    },
+    {
+        "address": "0x02BC",
+        "name": "U2P3",
+        "bits": [
+            "P3[7:0]"
+        ]
+    },
+    {
+        "address": "0x02BE",
+        "name": "U2CON0",
+        "bits": [
+            "BRGS\nABDEN\nTXEN\nRXEN\nMODE[3:0]"
+        ]
+    },
+    {
+        "address": "0x02BF",
+        "name": "U2CON1",
+        "bits": [
+            "ON\n \n \nWUE\nRXBIMD\n \nBRKOVR\nSENDB"
+        ]
+    },
+    {
+        "address": "0x02C0",
+        "name": "U2CON2",
+        "bits": [
+            "RUNOVF\nRXPOL\nSTP[1:0]\n \nTXPOL\nFLO[1:0]"
+        ]
+    },
+    {
+        "address": "0x02C1",
+        "name": "U2BRG",
+        "bits": [
+            "BRG[7:0]"
+        ]
+    },
+    {
+        "address": "0x02C3",
+        "name": "U2FIFO",
+        "bits": [
+            "TXWRE\nSTPMD\nTXBE\nTXBF\nRXIDL\nXON\nRXBE\nRXBF"
+        ]
+    },
+    {
+        "address": "0x02C4",
+        "name": "U2UIR",
+        "bits": [
+            "WUIF\nABDIF\n \n \n \nABDIE"
+        ]
+    },
+    {
+        "address": "0x02C5",
+        "name": "U2ERRIR",
+        "bits": [
+            "TXMTIF\nPERIF\nABDOVF\nCERIF\nFERIF\nRXBKIF\nRXFOIF"
+        ]
+    },
+    {
+        "address": "0x02C6",
+        "name": "U2ERRIE",
+        "bits": [
+            "TXMTIE\nPERIE\nABDOVE\nCERIE\nFERIE\nRXBKIE\nRXFOIE"
+        ]
+    },
+    {
+        "address": "0x02C7",
+        "name": "U3RXB",
+        "bits": [
+            "RXB[7:0]"
+        ]
+    },
+    {
+        "address": "0x02C9",
+        "name": "U3TXB",
+        "bits": [
+            "TXB[7:0]"
+        ]
+    },
+    {
+        "address": "0x02CB",
+        "name": "U3P1",
+        "bits": [
+            "P1[7:0]"
+        ]
+    },
+    {
+        "address": "0x02CD",
+        "name": "U3P2",
+        "bits": [
+            "P2[7:0]"
+        ]
+    },
+    {
+        "address": "0x02CF",
+        "name": "U3P3",
+        "bits": [
+            "P3[7:0]"
+        ]
+    },
+    {
+        "address": "0x02D1",
+        "name": "U3CON0",
+        "bits": [
+            "BRGS\nABDEN\nTXEN\nRXEN\nMODE[3:0]"
+        ]
+    },
+    {
+        "address": "0x02D2",
+        "name": "U3CON1",
+        "bits": [
+            "ON\n \n \nWUE\nRXBIMD\n \nBRKOVR\nSENDB"
+        ]
+    },
+    {
+        "address": "0x02D3",
+        "name": "U3CON2",
+        "bits": [
+            "RUNOVF\nRXPOL\nSTP[1:0]\n \nTXPOL\nFLO[1:0]"
+        ]
+    },
+    {
+        "address": "0x02D4",
+        "name": "U3BRG",
+        "bits": [
+            "BRG[7:0]"
+        ]
+    },
+    {
+        "address": "0x02D6",
+        "name": "U3FIFO",
+        "bits": [
+            "TXWRE\nSTPMD\nTXBE\nTXBF\nRXIDL\nXON\nRXBE\nRXBF"
+        ]
+    },
+    {
+        "address": "0x02D7",
+        "name": "U3UIR",
+        "bits": [
+            "WUIF\nABDIF\n \n \n \nABDIE"
+        ]
+    },
+    {
+        "address": "0x02D8",
+        "name": "U3ERRIR",
+        "bits": [
+            "TXMTIF\nPERIF\nABDOVF\nCERIF\nFERIF\nRXBKIF\nRXFOIF"
+        ]
+    },
+    {
+        "address": "0x02D9",
+        "name": "U3ERRIE",
+        "bits": [
+            "TXMTIE\nPERIE\nABDOVE\nCERIE\nFERIE\nRXBKIE\nRXFOIE"
+        ]
+    },
+    {
+        "address": "0x02DA",
+        "name": "U4RXB",
+        "bits": [
+            "RXB[7:0]"
+        ]
+    },
+    {
+        "address": "0x02DC",
+        "name": "U4TXB",
+        "bits": [
+            "TXB[7:0]"
+        ]
+    },
+    {
+        "address": "0x02DE",
+        "name": "U4P1",
+        "bits": [
+            "P1[7:0]"
+        ]
+    },
+    {
+        "address": "0x02E0",
+        "name": "U4P2",
+        "bits": [
+            "P2[7:0]"
+        ]
+    },
+    {
+        "address": "0x02E2",
+        "name": "U4P3",
+        "bits": [
+            "P3[7:0]"
+        ]
+    },
+    {
+        "address": "0x02E4",
+        "name": "U4CON0",
+        "bits": [
+            "BRGS\nABDEN\nTXEN\nRXEN\nMODE[3:0]"
+        ]
+    },
+    {
+        "address": "0x02E5",
+        "name": "U4CON1",
+        "bits": [
+            "ON\n \n \nWUE\nRXBIMD\n \nBRKOVR\nSENDB"
+        ]
+    },
+    {
+        "address": "0x02E6",
+        "name": "U4CON2",
+        "bits": [
+            "RUNOVF\nRXPOL\nSTP[1:0]\n \nTXPOL\nFLO[1:0]"
+        ]
+    },
+    {
+        "address": "0x02E7",
+        "name": "U4BRG",
+        "bits": [
+            "BRG[7:0]"
+        ]
+    },
+    {
+        "address": "0x02E9",
+        "name": "U4FIFO",
+        "bits": [
+            "TXWRE\nSTPMD\nTXBE\nTXBF\nRXIDL\nXON\nRXBE\nRXBF"
+        ]
+    },
+    {
+        "address": "0x02EA",
+        "name": "U4UIR",
+        "bits": [
+            "WUIF\nABDIF\n \n \n \nABDIE"
+        ]
+    },
+    {
+        "address": "0x02EB",
+        "name": "U4ERRIR",
+        "bits": [
+            "TXMTIF\nPERIF\nABDOVF\nCERIF\nFERIF\nRXBKIF\nRXFOIF"
+        ]
+    },
+    {
+        "address": "0x02EC",
+        "name": "U4ERRIE",
+        "bits": [
+            "TXMTIE\nPERIE\nABDOVE\nCERIE\nFERIE\nRXBKIE\nRXFOIE"
+        ]
+    },
+    {
+        "address": "0x02ED",
+        "name": "U5RXB",
+        "bits": [
+            "RXB[7:0]"
+        ]
+    },
+    {
+        "address": "0x02EF",
+        "name": "U5TXB",
+        "bits": [
+            "TXB[7:0]"
+        ]
+    },
+    {
+        "address": "0x02F1",
+        "name": "U5P1",
+        "bits": [
+            "P1[7:0]"
+        ]
+    },
+    {
+        "address": "0x02F3",
+        "name": "U5P2",
+        "bits": [
+            "P2[7:0]"
+        ]
+    },
+    {
+        "address": "0x02F5",
+        "name": "U5P3",
+        "bits": [
+            "P3[7:0]"
+        ]
+    },
+    {
+        "address": "0x02F7",
+        "name": "U5CON0",
+        "bits": [
+            "BRGS\nABDEN\nTXEN\nRXEN\nMODE[3:0]"
+        ]
+    },
+    {
+        "address": "0x02F8",
+        "name": "U5CON1",
+        "bits": [
+            "ON\n \n \nWUE\nRXBIMD\n \nBRKOVR\nSENDB"
+        ]
+    },
+    {
+        "address": "0x02F9",
+        "name": "U5CON2",
+        "bits": [
+            "RUNOVF\nRXPOL\nSTP[1:0]\n \nTXPOL\nFLO[1:0]"
+        ]
+    },
+    {
+        "address": "0x02FA",
+        "name": "U5BRG",
+        "bits": [
+            "BRG[7:0]"
+        ]
+    },
+    {
+        "address": "0x02FC",
+        "name": "U5FIFO",
+        "bits": [
+            "TXWRE\nSTPMD\nTXBE\nTXBF\nRXIDL\nXON\nRXBE\nRXBF"
+        ]
+    },
+    {
+        "address": "0x02FD",
+        "name": "U5UIR",
+        "bits": [
+            "WUIF\nABDIF\n \n \n \nABDIE"
+        ]
+    },
+    {
+        "address": "0x02FE",
+        "name": "U5ERRIR",
+        "bits": [
+            "TXMTIF\nPERIF\nABDOVF\nCERIF\nFERIF\nRXBKIF\nRXFOIF"
+        ]
+    },
+    {
+        "address": "0x02FF",
+        "name": "U5ERRIE",
+        "bits": [
+            "TXMTIE\nPERIE\nABDOVE\nCERIE\nFERIE\nRXBKIE\nRXFOIE"
+        ]
+    },
+    {
+        "address": "0x0300",
+        "name": "SMT1TMR",
+        "bits": [
+            "TMR[7:0]"
+        ]
+    },
+    {
+        "address": "0x0303",
+        "name": "SMT1CPR",
+        "bits": [
+            "CPR[7:0]"
+        ]
+    },
+    {
+        "address": "0x0306",
+        "name": "SMT1CPW",
+        "bits": [
+            "CPW[7:0]"
+        ]
+    },
+    {
+        "address": "0x0309",
+        "name": "SMT1PR",
+        "bits": [
+            "PR[7:0]"
+        ]
+    },
+    {
+        "address": "0x030C",
+        "name": "SMT1CON0",
+        "bits": [
+            "EN",
+            "STP\nWPOL\nSPOL\nCPOL\nPS[1:0]"
+        ]
+    },
+    {
+        "address": "0x030D",
+        "name": "SMT1CON1",
+        "bits": [
+            "GO",
+            "REPEAT",
+            "MODE[3:0]"
+        ]
+    },
+    {
+        "address": "0x030E",
+        "name": "SMT1STAT",
+        "bits": [
+            "CPRUP",
+            "CPWUP",
+            "RST\n \nTS\nWS\nAS"
+        ]
+    },
+    {
+        "address": "0x030F",
+        "name": "SMT1CLK",
+        "bits": [
+            "CSEL[3:0]"
+        ]
+    },
+    {
+        "address": "0x0310",
+        "name": "SMT1SIG",
+        "bits": [
+            "SSEL[5:0]"
+        ]
+    },
+    {
+        "address": "0x0311",
+        "name": "SMT1WIN",
+        "bits": [
+            "WSEL[5:0]"
+        ]
+    },
+    {
+        "address": "0x0318",
+        "name": "TMR0L",
+        "bits": [
+            "TMR0L[7:0]"
+        ]
+    },
+    {
+        "address": "0x0319",
+        "name": "TMR0H",
+        "bits": [
+            "TMR0H[7:0]"
+        ]
+    },
+    {
+        "address": "0x031A",
+        "name": "T0CON0",
+        "bits": [
+            "EN\n \nOUT\nMD16\nOUTPS[3:0]"
+        ]
+    },
+    {
+        "address": "0x031B",
+        "name": "T0CON1",
+        "bits": [
+            "CS[2:0]\nASYNC\nCKPS[3:0]"
+        ]
+    },
+    {
+        "address": "0x031C",
+        "name": "TMR1",
+        "bits": [
+            "TMR1[7:0]"
+        ]
+    },
+    {
+        "address": "0x031E",
+        "name": "T1CON",
+        "bits": [
+            "CKPS[1:0]\n \nSYNC\nRD16\nON"
+        ]
+    },
+    {
+        "address": "0x031F",
+        "name": "T1GCON",
+        "bits": [
+            "GE\nGPOL\nGTM\nGSPM\nGGO/DONE\nGVAL"
+        ]
+    },
+    {
+        "address": "0x0320",
+        "name": "T1GATE",
+        "bits": [
+            "GSS[5:0]"
+        ]
+    },
+    {
+        "address": "0x0321",
+        "name": "T1CLK",
+        "bits": [
+            "CS[4:0]"
+        ]
+    },
+    {
+        "address": "0x0322",
+        "name": "T2TMR",
+        "bits": [
+            "T2TMR[7:0]"
+        ]
+    },
+    {
+        "address": "0x0323",
+        "name": "T2PR",
+        "bits": [
+            "T2PR[7:0]"
+        ]
+    },
+    {
+        "address": "0x0324",
+        "name": "T2CON",
+        "bits": [
+            "ON\nCKPS[2:0]\nOUTPS[3:0]"
+        ]
+    },
+    {
+        "address": "0x0325",
+        "name": "T2HLT",
+        "bits": [
+            "PSYNC\nCPOL\nCSYNC\nMODE[4:0]"
+        ]
+    },
+    {
+        "address": "0x0326",
+        "name": "T2CLKCON",
+        "bits": [
+            "CS[4:0]"
+        ]
+    },
+    {
+        "address": "0x0327",
+        "name": "T2RST",
+        "bits": [
+            "RSEL[5:0]"
+        ]
+    },
+    {
+        "address": "0x0328",
+        "name": "TMR3",
+        "bits": [
+            "TMR3[7:0]"
+        ]
+    },
+    {
+        "address": "0x032A",
+        "name": "T3CON",
+        "bits": [
+            "CKPS[1:0]\n \nSYNC\nRD16\nON"
+        ]
+    },
+    {
+        "address": "0x032B",
+        "name": "T3GCON",
+        "bits": [
+            "GE\nGPOL\nGTM\nGSPM\nGGO/DONE\nGVAL"
+        ]
+    },
+    {
+        "address": "0x032C",
+        "name": "T3GATE",
+        "bits": [
+            "GSS[5:0]"
+        ]
+    },
+    {
+        "address": "0x032D",
+        "name": "T3CLK",
+        "bits": [
+            "CS[4:0]"
+        ]
+    },
+    {
+        "address": "0x032E",
+        "name": "T4TMR",
+        "bits": [
+            "T4TMR[7:0]"
+        ]
+    },
+    {
+        "address": "0x032F",
+        "name": "T4PR",
+        "bits": [
+            "T4PR[7:0]"
+        ]
+    },
+    {
+        "address": "0x0330",
+        "name": "T4CON",
+        "bits": [
+            "ON\nCKPS[2:0]\nOUTPS[3:0]"
+        ]
+    },
+    {
+        "address": "0x0331",
+        "name": "T4HLT",
+        "bits": [
+            "PSYNC\nCPOL\nCSYNC\nMODE[4:0]"
+        ]
+    },
+    {
+        "address": "0x0332",
+        "name": "T4CLKCON",
+        "bits": [
+            "CS[4:0]"
+        ]
+    },
+    {
+        "address": "0x0333",
+        "name": "T4RST",
+        "bits": [
+            "RSEL[5:0]"
+        ]
+    },
+    {
+        "address": "0x0334",
+        "name": "TMR5",
+        "bits": [
+            "TMR5[7:0]"
+        ]
+    },
+    {
+        "address": "0x0336",
+        "name": "T5CON",
+        "bits": [
+            "CKPS[1:0]\n \nSYNC\nRD16\nON"
+        ]
+    },
+    {
+        "address": "0x0337",
+        "name": "T5GCON",
+        "bits": [
+            "GE\nGPOL\nGTM\nGSPM\nGGO/DONE\nGVAL"
+        ]
+    },
+    {
+        "address": "0x0338",
+        "name": "T5GATE",
+        "bits": [
+            "GSS[5:0]"
+        ]
+    },
+    {
+        "address": "0x0339",
+        "name": "T5CLK",
+        "bits": [
+            "CS[4:0]"
+        ]
+    },
+    {
+        "address": "0x033A",
+        "name": "T6TMR",
+        "bits": [
+            "T6TMR[7:0]"
+        ]
+    },
+    {
+        "address": "0x033B",
+        "name": "T6PR",
+        "bits": [
+            "T6PR[7:0]"
+        ]
+    },
+    {
+        "address": "0x033C",
+        "name": "T6CON",
+        "bits": [
+            "ON\nCKPS[2:0]\nOUTPS[3:0]"
+        ]
+    },
+    {
+        "address": "0x033D",
+        "name": "T6HLT",
+        "bits": [
+            "PSYNC\nCPOL\nCSYNC\nMODE[4:0]"
+        ]
+    },
+    {
+        "address": "0x033E",
+        "name": "T6CLKCON",
+        "bits": [
+            "CS[4:0]"
+        ]
+    },
+    {
+        "address": "0x033F",
+        "name": "T6RST",
+        "bits": [
+            "RSEL[5:0]"
+        ]
+    },
+    {
+        "address": "0x0340",
+        "name": "CCPR1",
+        "bits": [
+            "CCPR[7:0]"
+        ]
+    },
+    {
+        "address": "0x0342",
+        "name": "CCP1CON",
+        "bits": [
+            "EN\n \nOUT\nFMT\nMODE[3:0]"
+        ]
+    },
+    {
+        "address": "0x0343",
+        "name": "CCP1CAP",
+        "bits": [
+            "CTS[3:0]"
+        ]
+    },
+    {
+        "address": "0x0344",
+        "name": "CCPR2",
+        "bits": [
+            "CCPR[7:0]"
+        ]
+    },
+    {
+        "address": "0x0346",
+        "name": "CCP2CON",
+        "bits": [
+            "EN\n \nOUT\nFMT\nMODE[3:0]"
+        ]
+    },
+    {
+        "address": "0x0347",
+        "name": "CCP2CAP",
+        "bits": [
+            "CTS[3:0]"
+        ]
+    },
+    {
+        "address": "0x0348",
+        "name": "CCPR3",
+        "bits": [
+            "CCPR[7:0]"
+        ]
+    },
+    {
+        "address": "0x034A",
+        "name": "CCP3CON",
+        "bits": [
+            "EN",
+            "OUT\nFMT",
+            "MODE[3:0]"
+        ]
+    },
+    {
+        "address": "0x034B",
+        "name": "CCP3CAP",
+        "bits": [
+            "CTS[3:0]"
+        ]
+    },
+    {
+        "address": "0x034C",
+        "name": "CCPTMRS0",
+        "bits": [
+            "C3TSEL[1:0]",
+            "C2TSEL[1:0]\nC1TSEL[1:0]"
+        ]
+    },
+    {
+        "address": "0x034F",
+        "name": "CRCDATA",
+        "bits": [
+            "DATA[7:0]"
+        ]
+    },
+    {
+        "address": "0x0351",
+        "name": "CRCACC",
+        "bits": [
+            "ACC[7:0]"
+        ]
+    },
+    {
+        "address": "0x0353",
+        "name": "CRCSHFT",
+        "bits": [
+            "SHFT[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0355",
+        "name": "CRCXOR",
+        "bits": [
+            "X[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0357",
+        "name": "CRCCON0",
+        "bits": [
+            "EN\nGO\nBUSY\nACCM\n \n \nSHIFTM\nFULL",
+            ""
+        ]
+    },
+    {
+        "address": "0x0358",
+        "name": "CRCCON1",
+        "bits": [
+            "DLEN[3:0]\nPLEN[3:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x035A",
+        "name": "SCANLADR",
+        "bits": [
+            "SCANLADRL[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x035D",
+        "name": "SCANHADR",
+        "bits": [
+            "SCANHADRL[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0360",
+        "name": "SCANCON0",
+        "bits": [
+            "EN",
+            "TRIGEN",
+            "SGO",
+            "MREG\nBURSTMD\nBUSY",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0361",
+        "name": "SCANTRIG",
+        "bits": [
+            "TSEL[4:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0362",
+        "name": "IPR0",
+        "bits": [
+            "IOCIP",
+            "CLC1IP",
+            "CSWIP",
+            "OSFIP",
+            "HLVDIP",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0363",
+        "name": "IPR1",
+        "bits": [
+            "SMT1PWAIP",
+            "SMT1PRAIP",
+            "SMT1IP",
+            "CM1IP",
+            "ACTIP",
+            "ADIP",
+            "ZCDIP",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0364",
+        "name": "IPR2",
+        "bits": [
+            "DMA1AIP",
+            "DMA1ORIP",
+            "DMA1DCNTIP DMA1SCNTIP",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0365",
+        "name": "IPR3",
+        "bits": [
+            "TMR0IP",
+            "CCP1IP",
+            "TMR1GIP",
+            "TMR1IP",
+            "TMR2IP",
+            "SPI1IP",
+            "SPI1TXIP",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0366",
+        "name": "IPR4",
+        "bits": [
+            "PWM1IP",
+            "PWM1PIP",
+            "U1IP",
+            "U1EIP",
+            "U1TXIP",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0367",
+        "name": "IPR5",
+        "bits": [
+            "PWM2IP",
+            "PWM2PIP",
+            "TMR3GIP",
+            "TMR3IP",
+            "SPI2IP",
+            "SPI2TXIP",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0368",
+        "name": "IPR6",
+        "bits": [
+            "DMA2AIP",
+            "DMA2ORIP",
+            "DMA2DCNTIP DMA2SCNTIP",
+            "NCO1IP",
+            "CWG1IP",
+            "CLC2IP",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0369",
+        "name": "IPR7",
+        "bits": [
+            "PWM3IP",
+            "PWM3PIP",
+            "CLC3IP",
+            "I2C1EIP",
+            "I2C1IP",
+            "I2C1TXIP",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x036A",
+        "name": "IPR8",
+        "bits": [
+            "SCANIP",
+            "CCP2IP",
+            "TMR5GIP",
+            "TMR5IP",
+            "U2IP",
+            "U2EIP",
+            "U2TXIP",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x036B",
+        "name": "IPR9",
+        "bits": [
+            "CLC4IP",
+            "U3IP",
+            "U3EIP",
+            "U3TXIP",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x036C",
+        "name": "IPR10",
+        "bits": [
+            "DMA3AIP",
+            "DMA3ORIP",
+            "DMA3DCNTIP DMA3SCNTIP",
+            "NCO2IP",
+            "CWG2IP",
+            "CLC5IP",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x036D",
+        "name": "IPR11",
+        "bits": [
+            "DMA4AIP",
+            "DMA4ORIP",
+            "DMA4DCNTIP DMA4SCNTIP",
+            "TMR4IP",
+            "CWG3IP",
+            "CLC6IP",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x036E",
+        "name": "IPR12",
+        "bits": [
+            "DMA5AIP",
+            "DMA5ORIP",
+            "DMA5DCNTIP DMA5SCNTIP",
+            "U4IP",
+            "U4EIP",
+            "U4TXIP",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x036F",
+        "name": "IPR13",
+        "bits": [
+            "DMA6AIP",
+            "DMA6ORIP",
+            "DMA6DCNTIP DMA6SCNTIP",
+            "U5IP",
+            "U5EIP",
+            "U5TXIP",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0370",
+        "name": "IPR14",
+        "bits": [
+            "NCO3IP",
+            "CM2IP",
+            "CLC7IP",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0371",
+        "name": "IPR15",
+        "bits": [
+            "TMR6IP",
+            "CRCIP",
+            "CLC8IP",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0373",
+        "name": "STATUS_CSHAD",
+        "bits": [
+            "TO",
+            "PD",
+            "N",
+            "OV",
+            "Z",
+            "DC",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0374",
+        "name": "WREG_CSHAD",
+        "bits": [
+            "WREG[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0375",
+        "name": "BSR_CSHAD",
+        "bits": [
+            "BSR[5:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0376",
+        "name": "SHADCON",
+        "bits": [
+            "SHADLO",
+            ""
+        ]
+    },
+    {
+        "address": "0x0377",
+        "name": "STATUS_SHAD",
+        "bits": [
+            "TO\nPD\nN\nOV\nZ\nDC\nC",
+            ""
+        ]
+    },
+    {
+        "address": "0x0378",
+        "name": "WREG_SHAD",
+        "bits": [
+            "WREG[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0379",
+        "name": "BSR_SHAD",
+        "bits": [
+            "BSR[5:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x037A",
+        "name": "PCLAT_SHAD",
+        "bits": [
+            "PCLATH[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x037C",
+        "name": "FSR0_SHAD",
+        "bits": [
+            "FSRL[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x037E",
+        "name": "FSR1_SHAD",
+        "bits": [
+            "FSRL[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0380",
+        "name": "FSR2_SHAD",
+        "bits": [
+            "FSRL[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0382",
+        "name": "PROD_SHAD",
+        "bits": [
+            "PROD[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03BC",
+        "name": "CWG1CLK",
+        "bits": [
+            "CS",
+            ""
+        ]
+    },
+    {
+        "address": "0x03BD",
+        "name": "CWG1ISM",
+        "bits": [
+            "ISM[4:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03BE",
+        "name": "CWG1DBR",
+        "bits": [
+            "DBR[5:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03BF",
+        "name": "CWG1DBF",
+        "bits": [
+            "DBF[5:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03C0",
+        "name": "CWG1CON0",
+        "bits": [
+            "EN",
+            "LD",
+            "MODE[2:0]",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x03C1",
+        "name": "CWG1CON1",
+        "bits": [
+            "IN\n \nPOLD\nPOLC\nPOLB\nPOLA",
+            ""
+        ]
+    },
+    {
+        "address": "0x03C2",
+        "name": "CWG1AS0",
+        "bits": [
+            "SHUTDOWN",
+            "REN",
+            "LSBD[1:0]\nLSAC[1:0]",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x03C3",
+        "name": "CWG1AS1",
+        "bits": [
+            "AS7E",
+            "AS6E",
+            "AS5E\nAS4E\nAS3E\nAS2E\nAS1E\nAS0E",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x03C4",
+        "name": "CWG1STR",
+        "bits": [
+            "OVRD",
+            "OVRC",
+            "OVRB\nOVRA\nSTRD\nSTRC\nSTRB\nSTRA",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x03C5",
+        "name": "CWG2CLK",
+        "bits": [
+            "CS",
+            ""
+        ]
+    },
+    {
+        "address": "0x03C6",
+        "name": "CWG2ISM",
+        "bits": [
+            "ISM[4:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03C7",
+        "name": "CWG2DBR",
+        "bits": [
+            "DBR[5:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03C8",
+        "name": "CWG2DBF",
+        "bits": [
+            "DBF[5:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03C9",
+        "name": "CWG2CON0",
+        "bits": [
+            "EN",
+            "LD",
+            "MODE[2:0]",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x03CA",
+        "name": "CWG2CON1",
+        "bits": [
+            "IN",
+            "POLD\nPOLC",
+            "POLB",
+            "POLA",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x03CB",
+        "name": "CWG2AS0",
+        "bits": [
+            "SHUTDOWN",
+            "REN",
+            "LSBD[1:0]",
+            "LSAC[1:0]",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x03CC",
+        "name": "CWG2AS1",
+        "bits": [
+            "AS7E",
+            "AS6E",
+            "AS5E\nAS4E",
+            "AS3E\nAS2E",
+            "AS1E",
+            "AS0E",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x03CD",
+        "name": "CWG2STR",
+        "bits": [
+            "OVRD",
+            "OVRC",
+            "OVRB\nOVRA",
+            "STRD\nSTRC",
+            "STRB",
+            "STRA",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x03CE",
+        "name": "CWG3CLK",
+        "bits": [
+            "CS",
+            ""
+        ]
+    },
+    {
+        "address": "0x03CF",
+        "name": "CWG3ISM",
+        "bits": [
+            "ISM[4:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03D0",
+        "name": "CWG3DBR",
+        "bits": [
+            "DBR[5:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03D1",
+        "name": "CWG3DBF",
+        "bits": [
+            "DBF[5:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03D2",
+        "name": "CWG3CON0",
+        "bits": [
+            "EN",
+            "LD",
+            "MODE[2:0]",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x03D3",
+        "name": "CWG3CON1",
+        "bits": [
+            "IN",
+            "POLD\nPOLC",
+            "POLB\nPOLA",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x03D4",
+        "name": "CWG3AS0",
+        "bits": [
+            "SHUTDOWN",
+            "REN",
+            "LSBD[1:0]",
+            "LSAC[1:0]",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x03D5",
+        "name": "CWG3AS1",
+        "bits": [
+            "AS7E",
+            "AS6E",
+            "AS5E\nAS4E",
+            "AS3E\nAS2E",
+            "AS1E\nAS0E",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x03D6",
+        "name": "CWG3STR",
+        "bits": [
+            "OVRD",
+            "OVRC",
+            "OVRB\nOVRA",
+            "STRD\nSTRC",
+            "STRB\nSTRA",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x03D7",
+        "name": "FVRCON",
+        "bits": [
+            "EN",
+            "RDY",
+            "TSEN\nTSRNG",
+            "CDAFVR[1:0]",
+            "ADFVR[1:0]",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x03D8",
+        "name": "ADCP",
+        "bits": [
+            "CPON",
+            "CPRDY",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x03D9",
+        "name": "ADLTH",
+        "bits": [
+            "LTH[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03DB",
+        "name": "ADUTH",
+        "bits": [
+            "UTH[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03DD",
+        "name": "ADERR",
+        "bits": [
+            "ERR[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03DF",
+        "name": "ADSTPT",
+        "bits": [
+            "STPT[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03E1",
+        "name": "ADFLTR",
+        "bits": [
+            "FLTR[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03E3",
+        "name": "ADACC",
+        "bits": [
+            "ACC[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03E6",
+        "name": "ADCNT",
+        "bits": [
+            "CNT[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03E7",
+        "name": "ADRPT",
+        "bits": [
+            "RPT[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03E8",
+        "name": "ADPREV",
+        "bits": [
+            "PREV[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03EA",
+        "name": "ADRES",
+        "bits": [
+            "RES[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03EC",
+        "name": "ADPCH",
+        "bits": [
+            "PCH[5:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03EE",
+        "name": "ADACQ",
+        "bits": [
+            "ACQ[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03F0",
+        "name": "ADCAP",
+        "bits": [
+            "CAP[4:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03F1",
+        "name": "ADPRE",
+        "bits": [
+            "PRE[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03F3",
+        "name": "ADCON0",
+        "bits": [
+            "ON",
+            "CONT\n \nCS",
+            "FM\n \nGO",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x03F4",
+        "name": "ADCON1",
+        "bits": [
+            "PPOL",
+            "IPEN\nGPOL",
+            "DSEN",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x03F5",
+        "name": "ADCON2",
+        "bits": [
+            "PSIS",
+            "CRS[2:0]",
+            "ACLR",
+            "MD[2:0]",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x03F6",
+        "name": "ADCON3",
+        "bits": [
+            "CALC[2:0]",
+            "SOI",
+            "TMD[2:0]",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x03F7",
+        "name": "ADSTAT",
+        "bits": [
+            "AOV",
+            "UTHR",
+            "LTHR\nMATH",
+            "STAT[2:0]",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x03F8",
+        "name": "ADREF",
+        "bits": [
+            "NREF",
+            "PREF[1:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x03F9",
+        "name": "ADACT",
+        "bits": [
+            "ACT[5:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x03FA",
+        "name": "ADCLK",
+        "bits": [
+            "CS[5:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0400",
+        "name": "ANSELA",
+        "bits": [
+            "ANSELA7",
+            "ANSELA6",
+            "ANSELA5",
+            "ANSELA4",
+            "ANSELA3",
+            "ANSELA2",
+            "ANSELA1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0401",
+        "name": "WPUA",
+        "bits": [
+            "WPUA7",
+            "WPUA6",
+            "WPUA5",
+            "WPUA4",
+            "WPUA3",
+            "WPUA2",
+            "WPUA1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0402",
+        "name": "ODCONA",
+        "bits": [
+            "ODCA7",
+            "ODCA6",
+            "ODCA5",
+            "ODCA4",
+            "ODCA3",
+            "ODCA2",
+            "ODCA1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0403",
+        "name": "SLRCONA",
+        "bits": [
+            "SLRA7",
+            "SLRA6",
+            "SLRA5",
+            "SLRA4",
+            "SLRA3",
+            "SLRA2",
+            "SLRA1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0404",
+        "name": "INLVLA",
+        "bits": [
+            "INLVLA7",
+            "INLVLA6",
+            "INLVLA5",
+            "INLVLA4",
+            "INLVLA3",
+            "INLVLA2",
+            "INLVLA1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0405",
+        "name": "IOCAP",
+        "bits": [
+            "IOCAP7",
+            "IOCAP6",
+            "IOCAP5",
+            "IOCAP4",
+            "IOCAP3",
+            "IOCAP2",
+            "IOCAP1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0406",
+        "name": "IOCAN",
+        "bits": [
+            "IOCAN7",
+            "IOCAN6",
+            "IOCAN5",
+            "IOCAN4",
+            "IOCAN3",
+            "IOCAN2",
+            "IOCAN1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0407",
+        "name": "IOCAF",
+        "bits": [
+            "IOCAF7",
+            "IOCAF6",
+            "IOCAF5",
+            "IOCAF4",
+            "IOCAF3",
+            "IOCAF2",
+            "IOCAF1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0408",
+        "name": "ANSELB",
+        "bits": [
+            "ANSELB7",
+            "ANSELB6",
+            "ANSELB5",
+            "ANSELB4",
+            "ANSELB3",
+            "ANSELB2",
+            "ANSELB1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0409",
+        "name": "WPUB",
+        "bits": [
+            "WPUB7",
+            "WPUB6",
+            "WPUB5",
+            "WPUB4",
+            "WPUB3",
+            "WPUB2",
+            "WPUB1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x040A",
+        "name": "ODCONB",
+        "bits": [
+            "ODCB7",
+            "ODCB6",
+            "ODCB5",
+            "ODCB4",
+            "ODCB3",
+            "ODCB2",
+            "ODCB1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x040B",
+        "name": "SLRCONB",
+        "bits": [
+            "SLRB7",
+            "SLRB6",
+            "SLRB5",
+            "SLRB4",
+            "SLRB3",
+            "SLRB2",
+            "SLRB1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x040C",
+        "name": "INLVLB",
+        "bits": [
+            "INLVLB7",
+            "INLVLB6",
+            "INLVLB5",
+            "INLVLB4",
+            "INLVLB3",
+            "INLVLB2",
+            "INLVLB1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x040D",
+        "name": "IOCBP",
+        "bits": [
+            "IOCBP7",
+            "IOCBP6",
+            "IOCBP5",
+            "IOCBP4",
+            "IOCBP3",
+            "IOCBP2",
+            "IOCBP1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x040E",
+        "name": "IOCBN",
+        "bits": [
+            "IOCBN7",
+            "IOCBN6",
+            "IOCBN5",
+            "IOCBN4",
+            "IOCBN3",
+            "IOCBN2",
+            "IOCBN1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x040F",
+        "name": "IOCBF",
+        "bits": [
+            "IOCBF7",
+            "IOCBF6",
+            "IOCBF5",
+            "IOCBF4",
+            "IOCBF3",
+            "IOCBF2",
+            "IOCBF1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0410",
+        "name": "ANSELC",
+        "bits": [
+            "ANSELC7",
+            "ANSELC6",
+            "ANSELC5",
+            "ANSELC4",
+            "ANSELC3",
+            "ANSELC2",
+            "ANSELC1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0411",
+        "name": "WPUC",
+        "bits": [
+            "WPUC7",
+            "WPUC6",
+            "WPUC5",
+            "WPUC4",
+            "WPUC3",
+            "WPUC2",
+            "WPUC1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0412",
+        "name": "ODCONC",
+        "bits": [
+            "ODCC7",
+            "ODCC6",
+            "ODCC5",
+            "ODCC4",
+            "ODCC3",
+            "ODCC2",
+            "ODCC1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0413",
+        "name": "SLRCONC",
+        "bits": [
+            "SLRC7",
+            "SLRC6",
+            "SLRC5",
+            "SLRC4",
+            "SLRC3",
+            "SLRC2",
+            "SLRC1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0414",
+        "name": "INLVLC",
+        "bits": [
+            "INLVLC7",
+            "INLVLC6",
+            "INLVLC5",
+            "INLVLC4",
+            "INLVLC3",
+            "INLVLC2",
+            "INLVLC1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0415",
+        "name": "IOCCP",
+        "bits": [
+            "IOCCP7",
+            "IOCCP6",
+            "IOCCP5",
+            "IOCCP4",
+            "IOCCP3",
+            "IOCCP2",
+            "IOCCP1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0416",
+        "name": "IOCCN",
+        "bits": [
+            "IOCCN7",
+            "IOCCN6",
+            "IOCCN5",
+            "IOCCN4",
+            "IOCCN3",
+            "IOCCN2",
+            "IOCCN1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0417",
+        "name": "IOCCF",
+        "bits": [
+            "IOCCF7",
+            "IOCCF6",
+            "IOCCF5",
+            "IOCCF4",
+            "IOCCF3",
+            "IOCCF2",
+            "IOCCF1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0418",
+        "name": "ANSELD",
+        "bits": [
+            "ANSELD7",
+            "ANSELD6",
+            "ANSELD5",
+            "ANSELD4",
+            "ANSELD3",
+            "ANSELD2",
+            "ANSELD1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0419",
+        "name": "WPUD",
+        "bits": [
+            "WPUD7",
+            "WPUD6",
+            "WPUD5",
+            "WPUD4",
+            "WPUD3",
+            "WPUD2",
+            "WPUD1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x041A",
+        "name": "ODCOND",
+        "bits": [
+            "ODCD7",
+            "ODCD6",
+            "ODCD5",
+            "ODCD4",
+            "ODCD3",
+            "ODCD2",
+            "ODCD1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x041B",
+        "name": "SLRCOND",
+        "bits": [
+            "SLRD7",
+            "SLRD6",
+            "SLRD5",
+            "SLRD4",
+            "SLRD3",
+            "SLRD2",
+            "SLRD1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x041C",
+        "name": "INLVLD",
+        "bits": [
+            "INLVLD7",
+            "INLVLD6",
+            "INLVLD5",
+            "INLVLD4",
+            "INLVLD3",
+            "INLVLD2",
+            "INLVLD1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0420",
+        "name": "ANSELE",
+        "bits": [
+            "ANSELE2",
+            "ANSELE1",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0421",
+        "name": "WPUE",
+        "bits": [
+            "WPUE3",
+            "WPUE2",
+            "WPUE1",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0422",
+        "name": "ODCONE",
+        "bits": [
+            "ODCE2",
+            "ODCE1",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0423",
+        "name": "SLRCONE",
+        "bits": [
+            "SLRE2",
+            "SLRE1",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0424",
+        "name": "INLVLE",
+        "bits": [
+            "INLVLE3",
+            "INLVLE2",
+            "INLVLE1",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0425",
+        "name": "IOCEP",
+        "bits": [
+            "IOCEP3",
+            ""
+        ]
+    },
+    {
+        "address": "0x0426",
+        "name": "IOCEN",
+        "bits": [
+            "IOCEN3",
+            ""
+        ]
+    },
+    {
+        "address": "0x0427",
+        "name": "IOCEF",
+        "bits": [
+            "IOCEF3",
+            ""
+        ]
+    },
+    {
+        "address": "0x0428",
+        "name": "ANSELF",
+        "bits": [
+            "ANSELF7",
+            "ANSELF6",
+            "ANSELF5",
+            "ANSELF4",
+            "ANSELF3",
+            "ANSELF2",
+            "ANSELF1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0429",
+        "name": "WPUF",
+        "bits": [
+            "WPUF7",
+            "WPUF6",
+            "WPUF5",
+            "WPUF4",
+            "WPUF3",
+            "WPUF2",
+            "WPUF1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x042A",
+        "name": "ODCONF",
+        "bits": [
+            "ODCF7",
+            "ODCF6",
+            "ODCF5",
+            "ODCF4",
+            "ODCF3",
+            "ODCF2",
+            "ODCF1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x042B",
+        "name": "SLRCONF",
+        "bits": [
+            "SLRF7",
+            "SLRF6",
+            "SLRF5",
+            "SLRF4",
+            "SLRF3",
+            "SLRF2",
+            "SLRF1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x042C",
+        "name": "INLVLF",
+        "bits": [
+            "INLVLF7",
+            "INLVLF6",
+            "INLVLF5",
+            "INLVLF4",
+            "INLVLF3",
+            "INLVLF2",
+            "INLVLF1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x0440",
+        "name": "NCO1ACC",
+        "bits": [
+            "ACC[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0443",
+        "name": "NCO1INC",
+        "bits": [
+            "INC[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0446",
+        "name": "NCO1CON",
+        "bits": [
+            "EN\n \nOUT\nPOL\n \n \n \nPFM",
+            ""
+        ]
+    },
+    {
+        "address": "0x0447",
+        "name": "NCO1CLK",
+        "bits": [
+            "PWS[2:0]\nCKS[4:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0448",
+        "name": "NCO2ACC",
+        "bits": [
+            "ACC[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x044B",
+        "name": "NCO2INC",
+        "bits": [
+            "INC[7:0]"
+        ]
+    },
+    {
+        "address": "0x044E",
+        "name": "NCO2CON",
+        "bits": [
+            "EN\n \nOUT\nPOL\n \n \n \nPFM"
+        ]
+    },
+    {
+        "address": "0x044F",
+        "name": "NCO2CLK",
+        "bits": [
+            "PWS[2:0]\nCKS[4:0]"
+        ]
+    },
+    {
+        "address": "0x0450",
+        "name": "NCO3ACC",
+        "bits": [
+            "ACC[7:0]"
+        ]
+    },
+    {
+        "address": "0x0453",
+        "name": "NCO3INC",
+        "bits": [
+            "INC[7:0]"
+        ]
+    },
+    {
+        "address": "0x0456",
+        "name": "NCO3CON",
+        "bits": [
+            "EN\n \nOUT",
+            "POL\n \n \n \nPFM"
+        ]
+    },
+    {
+        "address": "0x0457",
+        "name": "NCO3CLK",
+        "bits": [
+            "PWS[2:0]",
+            "CKS[4:0]"
+        ]
+    },
+    {
+        "address": "0x0459",
+        "name": "IVTLOCK",
+        "bits": [
+            "IVTLOCKED"
+        ]
+    },
+    {
+        "address": "0x045A",
+        "name": "IVTAD",
+        "bits": [
+            "IVTADL[7:0]"
+        ]
+    },
+    {
+        "address": "0x045D",
+        "name": "IVTBASE",
+        "bits": [
+            "IVTBASEL[7:0]"
+        ]
+    },
+    {
+        "address": "0x0460",
+        "name": "PWM1ERS",
+        "bits": [
+            "ERS[4:0]"
+        ]
+    },
+    {
+        "address": "0x0461",
+        "name": "PWM1CLK",
+        "bits": [
+            "CLK[4:0]"
+        ]
+    },
+    {
+        "address": "0x0462",
+        "name": "PWM1LDS",
+        "bits": [
+            "LDS[4:0]"
+        ]
+    },
+    {
+        "address": "0x0463",
+        "name": "PWM1PR",
+        "bits": [
+            "PR[7:0]"
+        ]
+    },
+    {
+        "address": "0x0465",
+        "name": "PWM1CPRE",
+        "bits": [
+            "CPRE[7:0]"
+        ]
+    },
+    {
+        "address": "0x0466",
+        "name": "PWM1PIPOS",
+        "bits": [
+            "PIPOS[7:0]"
+        ]
+    },
+    {
+        "address": "0x0467",
+        "name": "PWM1GIR",
+        "bits": [
+            "S1P2\nS1P1"
+        ]
+    },
+    {
+        "address": "0x0468",
+        "name": "PWM1GIE",
+        "bits": [
+            "S1P2\nS1P1"
+        ]
+    },
+    {
+        "address": "0x0469",
+        "name": "PWM1CON",
+        "bits": [
+            "EN\n \n \n \n \nLD\nERSPOL\nERSNOW"
+        ]
+    },
+    {
+        "address": "0x046A",
+        "name": "PWM1S1CFG",
+        "bits": [
+            "POL2\nPOL1\n \n \nPPEN\nMODE[2:0]"
+        ]
+    },
+    {
+        "address": "0x046B",
+        "name": "PWM1S1P1",
+        "bits": [
+            "P1[7:0]"
+        ]
+    },
+    {
+        "address": "0x046D",
+        "name": "PWM1S1P2",
+        "bits": [
+            "P2[7:0]"
+        ]
+    },
+    {
+        "address": "0x046F",
+        "name": "PWM2ERS",
+        "bits": [
+            "ERS[4:0]"
+        ]
+    },
+    {
+        "address": "0x0470",
+        "name": "PWM2CLK",
+        "bits": [
+            "CLK[4:0]"
+        ]
+    },
+    {
+        "address": "0x0471",
+        "name": "PWM2LDS",
+        "bits": [
+            "LDS[4:0]"
+        ]
+    },
+    {
+        "address": "0x0472",
+        "name": "PWM2PR",
+        "bits": [
+            "PR[7:0]"
+        ]
+    },
+    {
+        "address": "0x0474",
+        "name": "PWM2CPRE",
+        "bits": [
+            "CPRE[7:0]"
+        ]
+    },
+    {
+        "address": "0x0475",
+        "name": "PWM2PIPOS",
+        "bits": [
+            "PIPOS[7:0]"
+        ]
+    },
+    {
+        "address": "0x0476",
+        "name": "PWM2GIR",
+        "bits": [
+            "S1P2\nS1P1"
+        ]
+    },
+    {
+        "address": "0x0477",
+        "name": "PWM2GIE",
+        "bits": [
+            "S1P2\nS1P1"
+        ]
+    },
+    {
+        "address": "0x0478",
+        "name": "PWM2CON",
+        "bits": [
+            "EN\n \n \n \n \nLD\nERSPOL\nERSNOW"
+        ]
+    },
+    {
+        "address": "0x0479",
+        "name": "PWM2S1CFG",
+        "bits": [
+            "POL2\nPOL1\n \n \nPPEN\nMODE[2:0]"
+        ]
+    },
+    {
+        "address": "0x047A",
+        "name": "PWM2S1P1",
+        "bits": [
+            "P1[7:0]"
+        ]
+    },
+    {
+        "address": "0x047C",
+        "name": "PWM2S1P2",
+        "bits": [
+            "P2[7:0]"
+        ]
+    },
+    {
+        "address": "0x047E",
+        "name": "PWM3ERS",
+        "bits": [
+            "ERS[4:0]"
+        ]
+    },
+    {
+        "address": "0x047F",
+        "name": "PWM3CLK",
+        "bits": [
+            "CLK[4:0]"
+        ]
+    },
+    {
+        "address": "0x0480",
+        "name": "PWM3LDS",
+        "bits": [
+            "LDS[4:0]"
+        ]
+    },
+    {
+        "address": "0x0481",
+        "name": "PWM3PR",
+        "bits": [
+            "PR[7:0]"
+        ]
+    },
+    {
+        "address": "0x0483",
+        "name": "PWM3CPRE",
+        "bits": [
+            "CPRE[7:0]"
+        ]
+    },
+    {
+        "address": "0x0484",
+        "name": "PWM3PIPOS",
+        "bits": [
+            "PIPOS[7:0]"
+        ]
+    },
+    {
+        "address": "0x0485",
+        "name": "PWM3GIR",
+        "bits": [
+            "S1P2\nS1P1"
+        ]
+    },
+    {
+        "address": "0x0486",
+        "name": "PWM3GIE",
+        "bits": [
+            "S1P2\nS1P1",
+            ""
+        ]
+    },
+    {
+        "address": "0x0487",
+        "name": "PWM3CON",
+        "bits": [
+            "EN\n \n \n \n \nLD\nERSPOL\nERSNOW",
+            ""
+        ]
+    },
+    {
+        "address": "0x0488",
+        "name": "PWM3S1CFG",
+        "bits": [
+            "POL2\nPOL1\n \n \nPPEN\nMODE[2:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x0489",
+        "name": "PWM3S1P1",
+        "bits": [
+            "P1[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x048B",
+        "name": "PWM3S1P2",
+        "bits": [
+            "P2[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x049C",
+        "name": "PWMLOAD",
+        "bits": [
+            "MPWM3LD",
+            "MPWM2LD",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x049D",
+        "name": "PWMEN",
+        "bits": [
+            "MPWM3EN",
+            "MPWM2EN",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x049E",
+        "name": "PIE0",
+        "bits": [
+            "IOCIE",
+            "CLC1IE",
+            "CSWIE",
+            "OSFIE",
+            "HLVDIE",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x049F",
+        "name": "PIE1",
+        "bits": [
+            "SMT1PWAIE",
+            "SMT1PRAIE",
+            "SMT1IE",
+            "CM1IE",
+            "ACTIE",
+            "ADIE",
+            "ZCDIE",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04A0",
+        "name": "PIE2",
+        "bits": [
+            "DMA1AIE",
+            "DMA1ORIE",
+            "DMA1DCNTIE DMA1SCNTIE",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04A1",
+        "name": "PIE3",
+        "bits": [
+            "TMR0IE",
+            "CCP1IE",
+            "TMR1GIE",
+            "TMR1IE",
+            "TMR2IE",
+            "SPI1IE",
+            "SPI1TXIE",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04A2",
+        "name": "PIE4",
+        "bits": [
+            "PWM1IE",
+            "PWM1PIE",
+            "U1IE",
+            "U1EIE",
+            "U1TXIE",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04A3",
+        "name": "PIE5",
+        "bits": [
+            "PWM2IE",
+            "PWM2PIE",
+            "TMR3GIE",
+            "TMR3IE",
+            "SPI2IE",
+            "SPI2TXIE",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04A4",
+        "name": "PIE6",
+        "bits": [
+            "DMA2AIE",
+            "DMA2ORIE",
+            "DMA2DCNTIE DMA2SCNTIE",
+            "NCO1IE",
+            "CWG1IE",
+            "CLC2IE",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04A5",
+        "name": "PIE7",
+        "bits": [
+            "PWM3IE",
+            "PWM3PIE",
+            "CLC3IE",
+            "I2C1EIE",
+            "I2C1IE",
+            "I2C1TXIE",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04A6",
+        "name": "PIE8",
+        "bits": [
+            "SCANIE",
+            "CCP2IE",
+            "TMR5GIE",
+            "TMR5IE",
+            "U2IE",
+            "U2EIE",
+            "U2TXIE",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04A7",
+        "name": "PIE9",
+        "bits": [
+            "CLC4IE",
+            "U3IE",
+            "U3EIE",
+            "U3TXIE",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04A8",
+        "name": "PIE10",
+        "bits": [
+            "DMA3AIE",
+            "DMA3ORIE",
+            "DMA3DCNTIE DMA3SCNTIE",
+            "NCO2IE",
+            "CWG2IE",
+            "CLC5IE",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04A9",
+        "name": "PIE11",
+        "bits": [
+            "DMA4AIE",
+            "DMA4ORIE",
+            "DMA4DCNTIE DMA4SCNTIE",
+            "TMR4IE",
+            "CWG3IE",
+            "CLC6IE",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04AA",
+        "name": "PIE12",
+        "bits": [
+            "DMA5AIE",
+            "DMA5ORIE",
+            "DMA5DCNTIE DMA5SCNTIE",
+            "U4IE",
+            "U4EIE",
+            "U4TXIE",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04AB",
+        "name": "PIE13",
+        "bits": [
+            "DMA6AIE",
+            "DMA6ORIE",
+            "DMA6DCNTIE DMA6SCNTIE",
+            "U5IE",
+            "U5EIE",
+            "U5TXIE",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04AC",
+        "name": "PIE14",
+        "bits": [
+            "NCO3IE",
+            "CM2IE",
+            "CLC7IE",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04AD",
+        "name": "PIE15",
+        "bits": [
+            "TMR6IE",
+            "CRCIE",
+            "CLC8IE",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04AE",
+        "name": "PIR0",
+        "bits": [
+            "IOCIF",
+            "CLC1IF",
+            "CSWIF",
+            "OSFIF",
+            "HLVDIF",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04AF",
+        "name": "PIR1",
+        "bits": [
+            "SMT1PWAIF",
+            "SMT1PRAIF",
+            "SMT1IF",
+            "CM1IF",
+            "ACTIF",
+            "ADIF",
+            "ZCDIF",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04B0",
+        "name": "PIR2",
+        "bits": [
+            "DMA1AIF",
+            "DMA1ORIF",
+            "DMA1DCNTIF DMA1SCNTIF",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04B1",
+        "name": "PIR3",
+        "bits": [
+            "TMR0IF",
+            "CCP1IF",
+            "TMR1GIF",
+            "TMR1IF",
+            "TMR2IF",
+            "SPI1IF",
+            "SPI1TXIF",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04B2",
+        "name": "PIR4",
+        "bits": [
+            "PWM1IF",
+            "PWM1PIF",
+            "U1IF",
+            "U1EIF",
+            "U1TXIF",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04B3",
+        "name": "PIR5",
+        "bits": [
+            "PWM2IF",
+            "PWM2PIF",
+            "TMR3GIF",
+            "TMR3IF",
+            "SPI2IF",
+            "SPI2TXIF",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04B4",
+        "name": "PIR6",
+        "bits": [
+            "DMA2AIF",
+            "DMA2ORIF",
+            "DMA2DCNTIF DMA2SCNTIF",
+            "NCO1IF",
+            "CWG1IF",
+            "CLC2IF",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04B5",
+        "name": "PIR7",
+        "bits": [
+            "PWM3IF",
+            "PWM3PIF",
+            "CLC3IF",
+            "I2C1EIF",
+            "I2C1IF",
+            "I2C1TXIF",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04B6",
+        "name": "PIR8",
+        "bits": [
+            "SCANIF",
+            "CCP2IF",
+            "TMR5GIF",
+            "TMR5IF",
+            "U2IF",
+            "U2EIF",
+            "U2TXIF",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04B7",
+        "name": "PIR9",
+        "bits": [
+            "CLC4IF",
+            "U3IF",
+            "U3EIF",
+            "U3TXIF",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04B8",
+        "name": "PIR10",
+        "bits": [
+            "DMA3AIF",
+            "DMA3ORIF",
+            "DMA3DCNTIF DMA3SCNTIF",
+            "NCO2IF",
+            "CWG2IF",
+            "CLC5IF",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04B9",
+        "name": "PIR11",
+        "bits": [
+            "DMA4AIF",
+            "DMA4ORIF",
+            "DMA4DCNTIF DMA4SCNTIF",
+            "TMR4IF",
+            "CWG3IF",
+            "CLC6IF",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04BA",
+        "name": "PIR12",
+        "bits": [
+            "DMA5AIF",
+            "DMA5ORIF",
+            "DMA5DCNTIF DMA5SCNTIF",
+            "U4IF",
+            "U4EIF",
+            "U4TXIF",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04BB",
+        "name": "PIR13",
+        "bits": [
+            "DMA6AIF",
+            "DMA6ORIF",
+            "DMA6DCNTIF DMA6SCNTIF",
+            "U5IF",
+            "U5EIF",
+            "U5TXIF",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04BC",
+        "name": "PIR14",
+        "bits": [
+            "NCO3IF",
+            "CM2IF",
+            "CLC7IF",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04BD",
+        "name": "PIR15",
+        "bits": [
+            "TMR6IF",
+            "CRCIF",
+            "CLC8IF",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04BE",
+        "name": "LATA",
+        "bits": [
+            "LATA7",
+            "LATA6",
+            "LATA5",
+            "LATA4",
+            "LATA3",
+            "LATA2",
+            "LATA1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04BF",
+        "name": "LATB",
+        "bits": [
+            "LATB7",
+            "LATB6",
+            "LATB5",
+            "LATB4",
+            "LATB3",
+            "LATB2",
+            "LATB1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04C0",
+        "name": "LATC",
+        "bits": [
+            "LATC7",
+            "LATC6",
+            "LATC5",
+            "LATC4",
+            "LATC3",
+            "LATC2",
+            "LATC1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04C1",
+        "name": "LATD",
+        "bits": [
+            "LATD7",
+            "LATD6",
+            "LATD5",
+            "LATD4",
+            "LATD3",
+            "LATD2",
+            "LATD1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04C2",
+        "name": "LATE",
+        "bits": [
+            "LATE2",
+            "LATE1",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04C3",
+        "name": "LATF",
+        "bits": [
+            "LATF7",
+            "LATF6",
+            "LATF5",
+            "LATF4",
+            "LATF3",
+            "LATF2",
+            "LATF1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04C6",
+        "name": "TRISA",
+        "bits": [
+            "TRISA7",
+            "TRISA6",
+            "TRISA5",
+            "TRISA4",
+            "TRISA3",
+            "TRISA2",
+            "TRISA1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04C7",
+        "name": "TRISB",
+        "bits": [
+            "TRISB7",
+            "TRISB6",
+            "TRISB5",
+            "TRISB4",
+            "TRISB3",
+            "TRISB2",
+            "TRISB1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04C8",
+        "name": "TRISC",
+        "bits": [
+            "TRISC7",
+            "TRISC6",
+            "TRISC5",
+            "TRISC4",
+            "TRISC3",
+            "TRISC2",
+            "TRISC1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04C9",
+        "name": "TRISD",
+        "bits": [
+            "TRISD7",
+            "TRISD6",
+            "TRISD5",
+            "TRISD4",
+            "TRISD3",
+            "TRISD2",
+            "TRISD1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04CA",
+        "name": "TRISE",
+        "bits": [
+            "Reserved",
+            "TRISE2",
+            "TRISE1",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04CB",
+        "name": "TRISF",
+        "bits": [
+            "TRISF7",
+            "TRISF6",
+            "TRISF5",
+            "TRISF4",
+            "TRISF3",
+            "TRISF2",
+            "TRISF1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04CE",
+        "name": "PORTA",
+        "bits": [
+            "RA7",
+            "RA6",
+            "RA5",
+            "RA4",
+            "RA3",
+            "RA2",
+            "RA1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04CF",
+        "name": "PORTB",
+        "bits": [
+            "RB7",
+            "RB6",
+            "RB5",
+            "RB4",
+            "RB3",
+            "RB2",
+            "RB1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04D0",
+        "name": "PORTC",
+        "bits": [
+            "RC7",
+            "RC6",
+            "RC5",
+            "RC4",
+            "RC3",
+            "RC2",
+            "RC1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04D1",
+        "name": "PORTD",
+        "bits": [
+            "RD7",
+            "RD6",
+            "RD5",
+            "RD4",
+            "RD3",
+            "RD2",
+            "RD1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04D2",
+        "name": "PORTE",
+        "bits": [
+            "RE3",
+            "RE2",
+            "RE1",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04D3",
+        "name": "PORTF",
+        "bits": [
+            "RF7",
+            "RF6",
+            "RF5",
+            "RF4",
+            "RF3",
+            "RF2",
+            "RF1",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04D6",
+        "name": "INTCON0",
+        "bits": [
+            "GIE/GIEH",
+            "GIEL",
+            "IPEN",
+            "INT2EDG",
+            "INT1EDG",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04D7",
+        "name": "INTCON1",
+        "bits": [
+            "STAT[1:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04D8",
+        "name": "STATUS",
+        "bits": [
+            "TO",
+            "PD",
+            "N",
+            "OV",
+            "Z",
+            "DC",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x04D9",
+        "name": "FSR2",
+        "bits": [
+            "FSRL[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04DB",
+        "name": "PLUSW2",
+        "bits": [
+            "PLUSW[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04DC",
+        "name": "PREINC2",
+        "bits": [
+            "PREINC[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04DD",
+        "name": "POSTDEC2",
+        "bits": [
+            "POSTDEC[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04DE",
+        "name": "POSTINC2",
+        "bits": [
+            "POSTINC[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04DF",
+        "name": "INDF2",
+        "bits": [
+            "INDF[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04E0",
+        "name": "BSR",
+        "bits": [
+            "BSR[5:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04E1",
+        "name": "FSR1",
+        "bits": [
+            "FSRL[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04E3",
+        "name": "PLUSW1",
+        "bits": [
+            "PLUSW[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04E4",
+        "name": "PREINC1",
+        "bits": [
+            "PREINC[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04E5",
+        "name": "POSTDEC1",
+        "bits": [
+            "POSTDEC[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04E6",
+        "name": "POSTINC1",
+        "bits": [
+            "POSTINC[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04E7",
+        "name": "INDF1",
+        "bits": [
+            "INDF[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04E8",
+        "name": "WREG",
+        "bits": [
+            "WREG[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04E9",
+        "name": "FSR0",
+        "bits": [
+            "FSRL[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04EB",
+        "name": "PLUSW0",
+        "bits": [
+            "PLUSW[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04EC",
+        "name": "PREINC0",
+        "bits": [
+            "PREINC[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04ED",
+        "name": "POSTDEC0",
+        "bits": [
+            "POSTDEC[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04EE",
+        "name": "POSTINC0",
+        "bits": [
+            "POSTINC[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04EF",
+        "name": "INDF0",
+        "bits": [
+            "INDF[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04F0",
+        "name": "PCON0",
+        "bits": [
+            "STKOVF\nSTKUNF\nWDTWV\nRWDT\nRMCLR\nRI\nPOR\nBOR",
+            ""
+        ]
+    },
+    {
+        "address": "0x04F1",
+        "name": "PCON1",
+        "bits": [
+            "RVREG\nMEMV\nRCM",
+            ""
+        ]
+    },
+    {
+        "address": "0x04F2",
+        "name": "CPUDOZE",
+        "bits": [
+            "IDLEN\nDOZEN\nROI\nDOE\n \nDOZE[2:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04F3",
+        "name": "PROD",
+        "bits": [
+            "PROD[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04F5",
+        "name": "TABLAT",
+        "bits": [
+            "TABLAT[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04F6",
+        "name": "TBLPTR",
+        "bits": [
+            "TBLPTR[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04F9",
+        "name": "PCL",
+        "bits": [
+            "PCL[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04FA",
+        "name": "PCLAT",
+        "bits": [
+            "PCLATH[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04FC",
+        "name": "STKPTR",
+        "bits": [
+            "STKPTR[6:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x04FD",
+        "name": "TOS",
+        "bits": [
+            "TOS[7:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x300000",
+        "name": "CONFIG1",
+        "bits": [
+            "RSTOSC[2:0]\n \nFEXTOSC[2:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x300001",
+        "name": "CONFIG2",
+        "bits": [
+            "FCMEN\n \nCSWEN\n \nPR1WAY\nCLKOUTEN",
+            ""
+        ]
+    },
+    {
+        "address": "0x300002",
+        "name": "CONFIG3",
+        "bits": [
+            "BOREN[1:0]\nLPBOREN\nIVT1WAY\nMVECEN\nPWRTS[1:0]\nMCLRE",
+            ""
+        ]
+    },
+    {
+        "address": "0x300003",
+        "name": "CONFIG4",
+        "bits": [
+            "XINST",
+            "LVP\nSTVREN\nPPS1WAY\nZCD\nBORV[1:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x300004",
+        "name": "CONFIG5",
+        "bits": [
+            "WDTE[1:0]\nWDTCPS[4:0]",
+            ""
+        ]
+    },
+    {
+        "address": "0x300005",
+        "name": "CONFIG6",
+        "bits": [
+            "WDTCCS[2:0]",
+            "WDTCWS[2:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x300006",
+        "name": "CONFIG7",
+        "bits": [
+            "DEBUG",
+            "SAFEN",
+            "BBEN",
+            "BBSIZE[2:0]",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x300007",
+        "name": "CONFIG8",
+        "bits": [
+            "WRTAPP",
+            "WRTSAF",
+            "WRTD",
+            "WRTC",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x300008",
+        "name": "CONFIG9",
+        "bits": []
+    },
+    {
+        "address": "0x300009",
+        "name": "CONFIG10",
+        "bits": []
+    },
+    {
+        "address": "0x3FFFFC",
+        "name": "REVISIONID",
+        "bits": [
+            "MJRREV[1:0]",
+            "MNRREV[5:0]",
+            "",
+            ""
+        ]
+    },
+    {
+        "address": "0x3FFFFE",
+        "name": "DEVICEID",
+        "bits": [
+            "DEV[7:0]",
+            ""
+        ]
+    }
+]

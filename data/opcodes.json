@@ -1,0 +1,1027 @@
+[
+    {
+        "name": "ADDWF",
+        "operands": "f, d, a",
+        "description": "Add WREG and f",
+        "cycles": "1",
+        "word": {
+            "0": "0010",
+            "1": "01da",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "C, DC, Z, OV, N"
+    },
+    {
+        "name": "ADDWFC",
+        "operands": "f, d, a",
+        "description": "Add WREG and Carry bit to f",
+        "cycles": "1",
+        "word": {
+            "0": "0010",
+            "1": "00da",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "C, DC, Z, OV, N"
+    },
+    {
+        "name": "ANDWF",
+        "operands": "f, d, a",
+        "description": "AND WREG with f",
+        "cycles": "1",
+        "word": {
+            "0": "0001",
+            "1": "01da",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "Z, N"
+    },
+    {
+        "name": "CLRF",
+        "operands": "f, a",
+        "description": "Clear f",
+        "cycles": "1",
+        "word": {
+            "0": "0110",
+            "1": "101a",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "Z"
+    },
+    {
+        "name": "COMF",
+        "operands": "f, d, a",
+        "description": "Complement f",
+        "cycles": "1",
+        "word": {
+            "0": "0001",
+            "1": "11da",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "Z, N"
+    },
+    {
+        "name": "DECF",
+        "operands": "f, d, a",
+        "description": "Decrement f",
+        "cycles": "1",
+        "word": {
+            "0": "0000",
+            "1": "01da",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "C, DC, Z, OV, N"
+    },
+    {
+        "name": "INCF",
+        "operands": "f, d, a",
+        "description": "Increment f",
+        "cycles": "1",
+        "word": {
+            "0": "0010",
+            "1": "10da",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "C, DC, Z, OV, N"
+    },
+    {
+        "name": "IORWF",
+        "operands": "f, d, a",
+        "description": "Inclusive OR WREG with f",
+        "cycles": "1",
+        "word": {
+            "0": "0001",
+            "1": "00da",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "Z, N"
+    },
+    {
+        "name": "MOVF",
+        "operands": "f, d, a",
+        "description": "Move f to WREG or f",
+        "cycles": "1",
+        "word": {
+            "0": "0101",
+            "1": "00da",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "Z, N"
+    },
+    {
+        "name": "MOVFF",
+        "operands": "fs, fd",
+        "description": "Move fs (12-bit source)\nto fd (12-bit destination)",
+        "cycles": "2",
+        "word": {
+            "0": "1100",
+            "1": "fsfsfsfs",
+            "2": "fsfsfsfs",
+            "3": "fsfsfsfs",
+            "4": "1111",
+            "5": "fdfdfdfd",
+            "6": "fdfdfdfd",
+            "7": "fdfdfdfd"
+        },
+        "status": "None"
+    },
+    {
+        "name": "MOVFFL",
+        "operands": "fs, fd",
+        "description": "Move fs (14-bit source)\nto fd (14-bit destination)",
+        "cycles": "3",
+        "word": {
+            "0": "0000",
+            "1": "0000",
+            "2": "0110",
+            "3": "fsfsfsfs",
+            "4": "1111",
+            "5": "fsfsfsfs",
+            "6": "fsfsfsfs",
+            "7": "fsfsfdfd",
+            "8": "1111",
+            "9": "fdfdfdfd",
+            "10": "fdfdfdfd",
+            "11": "fdfdfdfd"
+        },
+        "status": "None"
+    },
+    {
+        "name": "MOVWF",
+        "operands": "f, a",
+        "description": "Move WREG to f",
+        "cycles": "1",
+        "word": {
+            "0": "0110",
+            "1": "111a",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "None"
+    },
+    {
+        "name": "MULWF",
+        "operands": "f, a",
+        "description": "Multiply WREG with f",
+        "cycles": "1",
+        "word": {
+            "0": "0000",
+            "1": "001a",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "None"
+    },
+    {
+        "name": "NEGF",
+        "operands": "f, a",
+        "description": "Negate f",
+        "cycles": "1",
+        "word": {
+            "0": "0110",
+            "1": "110a",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "C, DC, Z, OV, N"
+    },
+    {
+        "name": "RLCF",
+        "operands": "f, d, a",
+        "description": "Rotate Left f through Carry",
+        "cycles": "1",
+        "word": {
+            "0": "0011",
+            "1": "01da",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "C, Z, N"
+    },
+    {
+        "name": "RLNCF",
+        "operands": "f, d, a",
+        "description": "Rotate Left f (No Carry)",
+        "cycles": "1",
+        "word": {
+            "0": "0100",
+            "1": "01da",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "Z, N"
+    },
+    {
+        "name": "RRCF",
+        "operands": "f, d, a",
+        "description": "Rotate Right f through Carry",
+        "cycles": "1",
+        "word": {
+            "0": "0011",
+            "1": "00da",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "C, Z, N"
+    },
+    {
+        "name": "RRNCF",
+        "operands": "f, d, a",
+        "description": "Rotate Right f (No Carry)",
+        "cycles": "1",
+        "word": {
+            "0": "0100",
+            "1": "00da",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "Z, N"
+    },
+    {
+        "name": "SETF",
+        "operands": "f, a",
+        "description": "Set f",
+        "cycles": "1",
+        "word": {
+            "0": "0110",
+            "1": "100a",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "None"
+    },
+    {
+        "name": "SUBFWB",
+        "operands": "f, d, a",
+        "description": "Subtract f from WREG with\nBorrow",
+        "cycles": "1",
+        "word": {
+            "0": "0101",
+            "1": "01da",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "C, DC, Z, OV, N"
+    },
+    {
+        "name": "SUBWF",
+        "operands": "f, d, a",
+        "description": "Subtract WREG from f",
+        "cycles": "1",
+        "word": {
+            "0": "0101",
+            "1": "11da",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "C, DC, Z, OV, N"
+    },
+    {
+        "name": "SUBWFB",
+        "operands": "f, d, a",
+        "description": "Subtract WREG from f with\nBorrow",
+        "cycles": "1",
+        "word": {
+            "0": "0101",
+            "1": "10da",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "C, DC, Z, OV, N"
+    },
+    {
+        "name": "SWAPF",
+        "operands": "f, d, a",
+        "description": "Swap nibbles in f",
+        "cycles": "1",
+        "word": {
+            "0": "0011",
+            "1": "10da",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "None"
+    },
+    {
+        "name": "XORWF",
+        "operands": "f, d, a",
+        "description": "Exclusive OR WREG with f",
+        "cycles": "1",
+        "word": {
+            "0": "0001",
+            "1": "10da",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "Z, N"
+    },
+    {
+        "name": "CPFSEQ",
+        "operands": "f, a",
+        "description": "Compare f with WREG, skip\nif =",
+        "cycles": "1 \u2013 4",
+        "word": {
+            "0": "0110",
+            "1": "001a",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "None"
+    },
+    {
+        "name": "CPFSGT",
+        "operands": "f, a",
+        "description": "Compare f with WREG, skip\nif >",
+        "cycles": "1 \u2013 4",
+        "word": {
+            "0": "0110",
+            "1": "010a",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "None"
+    },
+    {
+        "name": "CPFSLT",
+        "operands": "f, a",
+        "description": "Compare f with WREG, skip\nif <",
+        "cycles": "1 \u2013 4",
+        "word": {
+            "0": "0110",
+            "1": "000a",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "None"
+    },
+    {
+        "name": "DECFSZ",
+        "operands": "f, d, a",
+        "description": "Decrement f, Skip if 0",
+        "cycles": "1 \u2013 4",
+        "word": {
+            "0": "0010",
+            "1": "11da",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "None"
+    },
+    {
+        "name": "DCFSNZ",
+        "operands": "f, d, a",
+        "description": "Decrement f, Skip if Not 0",
+        "cycles": "1 \u2013 4",
+        "word": {
+            "0": "0100",
+            "1": "11da",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "None"
+    },
+    {
+        "name": "INCFSZ",
+        "operands": "f, d, a",
+        "description": "Increment f, Skip if 0",
+        "cycles": "1 \u2013 4",
+        "word": {
+            "0": "0011",
+            "1": "11da",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "None"
+    },
+    {
+        "name": "INFSNZ",
+        "operands": "f, d, a",
+        "description": "Increment f, Skip if Not 0",
+        "cycles": "1 \u2013 4",
+        "word": {
+            "0": "0100",
+            "1": "10da",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "None"
+    },
+    {
+        "name": "TSTFSZ",
+        "operands": "f, a",
+        "description": "Test f, skip if 0",
+        "cycles": "1 \u2013 4",
+        "word": {
+            "0": "0110",
+            "1": "011a",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "None"
+    },
+    {
+        "name": "BCF",
+        "operands": "f, b, a",
+        "description": "Bit Clear f",
+        "cycles": "1",
+        "word": {
+            "0": "1001",
+            "1": "bbba",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "None"
+    },
+    {
+        "name": "BSF",
+        "operands": "f, b, a",
+        "description": "Bit Set f",
+        "cycles": "1",
+        "word": {
+            "0": "1000",
+            "1": "bbba",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "None"
+    },
+    {
+        "name": "BTG",
+        "operands": "f, b, a",
+        "description": "Bit Toggle f",
+        "cycles": "1",
+        "word": {
+            "0": "0111",
+            "1": "bbba",
+            "2": "ffff",
+            "3": "ffff"
+        },
+        "status": "None"
+    },
+    {
+        "name": "BC",
+        "operands": "n",
+        "description": "Branch if Carry",
+        "cycles": "1 \u2013 2",
+        "word": {
+            "0": "1110",
+            "1": "0010",
+            "2": "nnnn",
+            "3": "nnnn"
+        },
+        "status": "None"
+    },
+    {
+        "name": "BN",
+        "operands": "n",
+        "description": "Branch if Negative",
+        "cycles": "1 \u2013 2",
+        "word": {
+            "0": "1110",
+            "1": "0110",
+            "2": "nnnn",
+            "3": "nnnn"
+        },
+        "status": "None"
+    },
+    {
+        "name": "BNC",
+        "operands": "n",
+        "description": "Branch if Not Carry",
+        "cycles": "1 \u2013 2",
+        "word": {
+            "0": "1110",
+            "1": "0011",
+            "2": "nnnn",
+            "3": "nnnn"
+        },
+        "status": "None"
+    },
+    {
+        "name": "BNN",
+        "operands": "n",
+        "description": "Branch if Not Negative",
+        "cycles": "1 \u2013 2",
+        "word": {
+            "0": "1110",
+            "1": "0111",
+            "2": "nnnn",
+            "3": "nnnn"
+        },
+        "status": "None"
+    },
+    {
+        "name": "BNOV",
+        "operands": "n",
+        "description": "Branch if Not Overflow",
+        "cycles": "1 \u2013 2",
+        "word": {
+            "0": "1110",
+            "1": "0101",
+            "2": "nnnn",
+            "3": "nnnn"
+        },
+        "status": "None"
+    },
+    {
+        "name": "BNZ",
+        "operands": "n",
+        "description": "Branch if Not Zero",
+        "cycles": "1 \u2013 2",
+        "word": {
+            "0": "1110",
+            "1": "0001",
+            "2": "nnnn",
+            "3": "nnnn"
+        },
+        "status": "None"
+    },
+    {
+        "name": "BOV",
+        "operands": "n",
+        "description": "Branch if Overflow",
+        "cycles": "1 \u2013 2",
+        "word": {
+            "0": "1110",
+            "1": "0100",
+            "2": "nnnn",
+            "3": "nnnn"
+        },
+        "status": "None"
+    },
+    {
+        "name": "BRA",
+        "operands": "n",
+        "description": "Branch Unconditionally",
+        "cycles": "2",
+        "word": {
+            "0": "1101",
+            "1": "0nnn",
+            "2": "nnnn",
+            "3": "nnnn"
+        },
+        "status": "None"
+    },
+    {
+        "name": "BZ",
+        "operands": "n",
+        "description": "Branch if Zero",
+        "cycles": "1 \u2013 2",
+        "word": {
+            "0": "1110",
+            "1": "0000",
+            "2": "nnnn",
+            "3": "nnnn"
+        },
+        "status": "None"
+    },
+    {
+        "name": "CALL",
+        "operands": "k, s",
+        "description": "Call subroutine",
+        "cycles": "2",
+        "word": {
+            "0": "1110",
+            "1": "110s",
+            "2": "kkkk",
+            "3": "kkkk",
+            "4": "1111",
+            "5": "kkkk",
+            "6": "kkkk",
+            "7": "kkkk"
+        },
+        "status": "None"
+    },
+    {
+        "name": "CALLW",
+        "operands": "\u2014",
+        "description": "Call subroutine using WREG",
+        "cycles": "2",
+        "word": {
+            "0": "0000",
+            "1": "0000",
+            "2": "0001",
+            "3": "0100"
+        },
+        "status": "None"
+    },
+    {
+        "name": "GOTO",
+        "operands": "k",
+        "description": "Go to address",
+        "cycles": "2",
+        "word": {
+            "0": "1110",
+            "1": "1111",
+            "2": "kkkk",
+            "3": "kkkk",
+            "4": "1111",
+            "5": "kkkk",
+            "6": "kkkk",
+            "7": "kkkk"
+        },
+        "status": "None"
+    },
+    {
+        "name": "RCALL",
+        "operands": "n",
+        "description": "Relative Call",
+        "cycles": "2",
+        "word": {
+            "0": "1101",
+            "1": "1nnn",
+            "2": "nnnn",
+            "3": "nnnn"
+        },
+        "status": "None"
+    },
+    {
+        "name": "RETFIE",
+        "operands": "s",
+        "description": "Return from interrupt enable",
+        "cycles": "2",
+        "word": {
+            "0": "0000",
+            "1": "0000",
+            "2": "0001",
+            "3": "000s"
+        },
+        "status": "INTCONx STAT bits"
+    },
+    {
+        "name": "RETLW",
+        "operands": "k",
+        "description": "Return with literal in WREG",
+        "cycles": "2",
+        "word": {
+            "0": "0000",
+            "1": "1100",
+            "2": "kkkk",
+            "3": "kkkk"
+        },
+        "status": "None"
+    },
+    {
+        "name": "RETURN",
+        "operands": "s",
+        "description": "Return from Subroutine",
+        "cycles": "2",
+        "word": {
+            "0": "0000",
+            "1": "0000",
+            "2": "0001",
+            "3": "001s"
+        },
+        "status": "None"
+    },
+    {
+        "name": "DAW",
+        "operands": "\u2014",
+        "description": "Decimal Adjust WREG",
+        "cycles": "1",
+        "word": {
+            "0": "0000",
+            "1": "0000",
+            "2": "0000",
+            "3": "0111"
+        },
+        "status": "C"
+    },
+    {
+        "name": "NOP",
+        "operands": "\u2014",
+        "description": "No Operation",
+        "cycles": "1",
+        "word": {
+            "0": "0000",
+            "1": "0000",
+            "2": "0000",
+            "3": "0000"
+        },
+        "status": "None"
+    },
+    {
+        "name": "NOP",
+        "operands": "\u2014",
+        "description": "No Operation",
+        "cycles": "1",
+        "word": {
+            "0": "1111",
+            "1": "xxxx",
+            "2": "xxxx",
+            "3": "xxxx"
+        },
+        "status": "None"
+    },
+    {
+        "name": "POP",
+        "operands": "\u2014",
+        "description": "Pop top of return stack\n(TOS)",
+        "cycles": "1",
+        "word": {
+            "0": "0000",
+            "1": "0000",
+            "2": "0000",
+            "3": "0110"
+        },
+        "status": "None"
+    },
+    {
+        "name": "PUSH",
+        "operands": "\u2014",
+        "description": "Push top of return stack\n(TOS)",
+        "cycles": "1",
+        "word": {
+            "0": "0000",
+            "1": "0000",
+            "2": "0000",
+            "3": "0101"
+        },
+        "status": "None"
+    },
+    {
+        "name": "RESET",
+        "operands": "\u2014",
+        "description": "Software device Reset",
+        "cycles": "1",
+        "word": {
+            "0": "0000",
+            "1": "0000",
+            "2": "1111",
+            "3": "1111"
+        },
+        "status": "All"
+    },
+    {
+        "name": "SLEEP",
+        "operands": "\u2014",
+        "description": "Go into Standby mode",
+        "cycles": "1",
+        "word": {
+            "0": "0000",
+            "1": "0000",
+            "2": "0000",
+            "3": "0011"
+        },
+        "status": "TO, PD"
+    },
+    {
+        "name": "ADDFSR",
+        "operands": "fn, k",
+        "description": "Add FSR (fn) with literal (k)",
+        "cycles": "1",
+        "word": {
+            "0": "1110",
+            "1": "1000",
+            "2": "fnfnkk",
+            "3": "kkkk"
+        },
+        "status": "None"
+    },
+    {
+        "name": "ADDLW",
+        "operands": "k",
+        "description": "Add literal and WREG",
+        "cycles": "1",
+        "word": {
+            "0": "0000",
+            "1": "1111",
+            "2": "kkkk",
+            "3": "kkkk"
+        },
+        "status": "C, DC, Z, OV, N"
+    },
+    {
+        "name": "ANDLW",
+        "operands": "k",
+        "description": "AND literal with WREG",
+        "cycles": "1",
+        "word": {
+            "0": "0000",
+            "1": "1011",
+            "2": "kkkk",
+            "3": "kkkk"
+        },
+        "status": "Z, N"
+    },
+    {
+        "name": "IORLW",
+        "operands": "k",
+        "description": "Inclusive OR literal with\nWREG",
+        "cycles": "1",
+        "word": {
+            "0": "0000",
+            "1": "1001",
+            "2": "kkkk",
+            "3": "kkkk"
+        },
+        "status": "Z, N"
+    },
+    {
+        "name": "LFSR",
+        "operands": "fn, k",
+        "description": "Load FSR(fn) with a 14-bit\nliteral (k)",
+        "cycles": "2",
+        "word": {
+            "0": "1110",
+            "1": "1110",
+            "2": "00fnfn",
+            "3": "kkkk",
+            "4": "1111",
+            "5": "00kk",
+            "6": "kkkk",
+            "7": "kkkk"
+        },
+        "status": "None"
+    },
+    {
+        "name": "MOVLB",
+        "operands": "k",
+        "description": "Move literal to BSR<5:0>",
+        "cycles": "1",
+        "word": {
+            "0": "0000",
+            "1": "0001",
+            "2": "00kk",
+            "3": "kkkk"
+        },
+        "status": "None"
+    },
+    {
+        "name": "MOVLW",
+        "operands": "k",
+        "description": "Move literal to WREG",
+        "cycles": "1",
+        "word": {
+            "0": "0000",
+            "1": "1110",
+            "2": "kkkk",
+            "3": "kkkk"
+        },
+        "status": "None"
+    },
+    {
+        "name": "MULLW",
+        "operands": "k",
+        "description": "Multiply literal with WREG",
+        "cycles": "1",
+        "word": {
+            "0": "0000",
+            "1": "1101",
+            "2": "kkkk",
+            "3": "kkkk"
+        },
+        "status": "None"
+    },
+    {
+        "name": "RETLW",
+        "operands": "k",
+        "description": "Return with literal in WREG",
+        "cycles": "2",
+        "word": {
+            "0": "0000",
+            "1": "1100",
+            "2": "kkkk",
+            "3": "kkkk"
+        },
+        "status": "None"
+    },
+    {
+        "name": "SUBFSR",
+        "operands": "fn, k",
+        "description": "Subtract literal (k) from FSR\n(fn)",
+        "cycles": "1",
+        "word": {
+            "0": "1110",
+            "1": "1001",
+            "2": "fnfnkk",
+            "3": "kkkk"
+        },
+        "status": "None"
+    },
+    {
+        "name": "SUBLW",
+        "operands": "k",
+        "description": "Subtract WREG from literal",
+        "cycles": "1",
+        "word": {
+            "0": "0000",
+            "1": "1000",
+            "2": "kkkk",
+            "3": "kkkk"
+        },
+        "status": "C, DC, Z, OV, N"
+    },
+    {
+        "name": "TBLRD*",
+        "operands": "\u2014",
+        "description": "Table Read",
+        "cycles": "2",
+        "word": {
+            "0": "0000",
+            "1": "0000",
+            "2": "0000",
+            "3": "1000"
+        },
+        "status": "None"
+    },
+    {
+        "name": "TBLRD*+",
+        "operands": "\u2014",
+        "description": "Table Read with post-\nincrement",
+        "cycles": "2",
+        "word": {
+            "0": "0000",
+            "1": "0000",
+            "2": "0000",
+            "3": "1001"
+        },
+        "status": "None"
+    },
+    {
+        "name": "TBLRD*-",
+        "operands": "\u2014",
+        "description": "Table Read with post-\ndecrement",
+        "cycles": "2",
+        "word": {
+            "0": "0000",
+            "1": "0000",
+            "2": "0000",
+            "3": "1010"
+        },
+        "status": "None"
+    },
+    {
+        "name": "TBLRD+*",
+        "operands": "\u2014",
+        "description": "Table Read with pre-\nincrement",
+        "cycles": "2",
+        "word": {
+            "0": "0000",
+            "1": "0000",
+            "2": "0000",
+            "3": "1011"
+        },
+        "status": "None"
+    },
+    {
+        "name": "TBLWT*",
+        "operands": "\u2014",
+        "description": "Table Write",
+        "cycles": "2",
+        "word": {
+            "0": "0000",
+            "1": "0000",
+            "2": "0000",
+            "3": "1100"
+        },
+        "status": "None"
+    },
+    {
+        "name": "TBLWT*+",
+        "operands": "\u2014",
+        "description": "Table Write with post-\nincrement",
+        "cycles": "2",
+        "word": {
+            "0": "0000",
+            "1": "0000",
+            "2": "0000",
+            "3": "1101"
+        },
+        "status": "None"
+    },
+    {
+        "name": "TBLWT*-",
+        "operands": "\u2014",
+        "description": "Table Write with post-\ndecrement",
+        "cycles": "2",
+        "word": {
+            "0": "0000",
+            "1": "0000",
+            "2": "0000",
+            "3": "1110"
+        },
+        "status": "None"
+    },
+    {
+        "name": "TBLWT+*",
+        "operands": "\u2014",
+        "description": "Table Write with pre-\nincrement",
+        "cycles": "2",
+        "word": {
+            "0": "0000",
+            "1": "0000",
+            "2": "0000",
+            "3": "1111"
+        },
+        "status": "None"
+    }
+]
